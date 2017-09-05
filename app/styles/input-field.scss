@@ -1,0 +1,60 @@
+@import "colors";
+@import "fonts";
+
+form  {
+
+  width: 100%;
+  span:before  {
+
+    cursor: pointer;
+    position: relative;
+    font-family: fontawesome;
+    top: 1.7rem;
+    left: .6rem;
+    color: $green;
+  }
+}
+
+.user-icon:before  {
+
+  content: '';
+}
+
+.email-icon:before  {
+
+  content: ''
+}
+
+input, select, textarea  {
+
+  width: 90%;
+}
+
+input  {
+
+  text-align: left;
+  border-radius: 5px;
+  border: 1px solid rgb(160, 160, 160);
+  padding: .6rem 1rem .6rem 2rem;
+  border-width: 1px;
+  border-color: $green;
+  border-style: solid;
+  border-radius: 5px;
+  &:focus  {
+
+    border-color: $blue;
+    transition: .5s;
+  }
+}
+
+.email-validate  {
+
+  &:valid  {
+    transition: .5s;
+  }
+
+  &:invalid  {
+    border-color: $red;
+    transition: .5s;
+  }
+}
