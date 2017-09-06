@@ -11,12 +11,12 @@
 .btn-hover  {
 
   box-shadow: 0px 4px 7px 0px rgba(18, 194, 211, 0.48);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s;
   cursor: pointer;
   &:hover {
 
     box-shadow: 0px 7px 13px 0px rgba(18, 194, 211, 0.80);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s;
   }
 }
 
@@ -37,6 +37,7 @@
   border-color: $green;
   color: $green;
   transition: all 0.5s;
+  padding: 0.8rem 3rem;
   &:hover {
 
     background-color: $green;

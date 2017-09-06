@@ -4,14 +4,26 @@
 form  {
 
   width: 100%;
+}
+
+.input-field  {
+
   span:before  {
 
     cursor: pointer;
     position: relative;
-    font-family: fontawesome;
-    top: 1.7rem;
+    font-family: 'fontawesome';
+    top: 3rem;
     left: .6rem;
     color: $green;
+  }
+}
+
+.text-area-field  {
+
+  span:before  {
+
+    top: 1.8rem;
   }
 }
 
@@ -22,29 +34,58 @@ form  {
 
 .email-icon:before  {
 
-  content: ''
+  content: '';
 }
 
-input, select, textarea  {
+.edit-icon:before  {
 
-  width: 90%;
+  content: '';
 }
 
-input  {
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=search],
+input[type=number],
+input[type=file],
+input[type=tel],
+input[type=url],
+select,
+textarea,
+textarea[type=text]  {
 
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  transition: all .2s ease;
   text-align: left;
-  border-radius: 5px;
-  border: 1px solid rgb(160, 160, 160);
-  padding: .6rem 1rem .6rem 2rem;
   border-width: 1px;
   border-color: $green;
   border-style: solid;
   border-radius: 5px;
+  font-family: 'roboto';
   &:focus  {
 
     border-color: $blue;
-    transition: .5s;
+    transition: all .2s ease;
   }
+}
+
+textarea  {
+
+  margin: 0;
+}
+
+input, textarea  {
+
+  padding: .9rem 1rem .9rem 2rem;
+}
+
+select  {
+
+  padding: .9rem .5rem .9rem .5rem;
+  margin: 1.2rem 0;
 }
 
 .email-validate  {
@@ -57,4 +98,10 @@ input  {
     border-color: $red;
     transition: .5s;
   }
+}
+
+textarea  {
+
+  resize: vertical;
+  min-height: 8rem;
 }

@@ -66,6 +66,8 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
 .row {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  margin: 1rem 0;
   .column {
     box-sizing: border-box;
     padding: 0 $gutter-width / 2;
