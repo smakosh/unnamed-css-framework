@@ -8,17 +8,6 @@
   cursor: pointer;
 }
 
-.btn-hover  {
-
-  box-shadow: 0px 4px 7px 0px rgba(18, 194, 211, 0.48);
-  transition: all 0.5s;
-  &:hover {
-
-    box-shadow: 0px 7px 13px 0px rgba(18, 194, 211, 0.80);
-    transition: all 0.5s;
-  }
-}
-
 .btn-primary  {
 
   border-radius: 5px;
@@ -33,14 +22,41 @@
 
   border-width: 4.43px;
   border-style: solid;
-  border-color: $green;
-  color: $green;
   transition: all 0.5s;
   padding: 0.8rem 3rem;
   &:hover {
 
-    background-color: $green;
     color: #fff;
     transition: all 0.5s;
+  }
+}
+
+.green-btn  {
+
+  border-color: $green;
+  color: $green;
+  &:hover {
+
+    background-color: $green;
+  }
+}
+
+.orange-btn  {
+
+  border-color: $orange-btn;
+  color: $orange-btn;
+  &:hover {
+
+    background-color: $orange-btn;
+  }
+}
+
+.purple-btn  {
+
+  border-color: $purple-btn;
+  color: $purple-btn;
+  &:hover {
+
+    background-color: $purple-btn;
   }
 }

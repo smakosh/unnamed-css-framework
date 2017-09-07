@@ -86,25 +86,14 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
     box-sizing: border-box;
     padding: 0 $gutter-width / 2;
     min-height: 1px;
-    &[class*="push-"],
-    &[class*="pull-"] {
-      position: relative;
-    }
 
     $i: 1;
     @while $i <= $number-columns {
       $perc: unquote((100 / ($number-columns / $i)) + "%");
-      &.s#{$i} {
+      &.small-#{$i} {
         width: $perc;
         @include reset-offset;
       }
-      $i: $i + 1;
-    }
-
-    $i: 1;
-    @while $i <= $number-columns {
-      $perc: unquote((100 / ($number-columns / $i)) + "%");
-      @include grid-classes("s", $i, $perc);
       $i: $i + 1;
     }
 
@@ -113,17 +102,10 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
       $i: 1;
       @while $i <= $number-columns {
         $perc: unquote((100 / ($number-columns / $i)) + "%");
-        &.m#{$i} {
+        &.medium-#{$i} {
           width: $perc;
           @include reset-offset;
         }
-        $i: $i + 1
-      }
-
-      $i: 1;
-      @while $i <= $number-columns {
-        $perc: unquote((100 / ($number-columns / $i)) + "%");
-        @include grid-classes("m", $i, $perc);
         $i: $i + 1;
       }
     }
@@ -133,17 +115,10 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
       $i: 1;
       @while $i <= $number-columns {
         $perc: unquote((100 / ($number-columns / $i)) + "%");
-        &.l#{$i} {
+        &.large-#{$i} {
           width: $perc;
           @include reset-offset;
         }
-        $i: $i + 1;
-      }
-
-      $i: 1;
-      @while $i <= $number-columns {
-        $perc: unquote((100 / ($number-columns / $i)) + "%");
-        @include grid-classes("l", $i, $perc);
         $i: $i + 1;
       }
     }
@@ -153,17 +128,10 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
       $i: 1;
       @while $i <= $number-columns {
         $perc: unquote((100 / ($number-columns / $i)) + "%");
-        &.xl#{$i} {
+        &.xlarge-#{$i} {
           width: $perc;
           @include reset-offset;
         }
-        $i: $i + 1;
-      }
-
-      $i: 1;
-      @while $i <= $number-columns {
-        $perc: unquote((100 / ($number-columns / $i)) + "%");
-        @include grid-classes("xl", $i, $perc);
         $i: $i + 1;
       }
     }
