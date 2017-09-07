@@ -62,6 +62,20 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
   }
 }
 
+.center-text  {
+
+  text-align: center;
+}
+
+.left-text  {
+
+  text-align: left;
+}
+
+.right-text  {
+
+  text-align: right;
+}
 
 .row {
   display: flex;

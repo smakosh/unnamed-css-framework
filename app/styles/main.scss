@@ -3,20 +3,11 @@
 @import "colors";
 @import "fonts";
 @import "grid";
-@import "input-field";
-@import "text-area";
-@import "radio-button";
-@import "checkbox";
+@import "forms";
 @import "cards";
 @import "default";
 @import "gradient";
 @import "buttons";
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
 
 body {
   font-family: 'roboto';
@@ -24,25 +15,51 @@ body {
   margin: 0;
 }
 
-.buttons {
+.container  {
 
   padding: 2rem 0;
+}
+
+.buttons {
+
   a  {
 
     margin-right: 1rem;
+    line-height: 4rem;
   }
-}
-
-.forms  {
-
-  padding: 2rem 0;
 }
 
 .boxes  {
 
-  padding: 2rem 0;
   label  {
 
     margin-right: 2rem;
+  }
+}
+
+.grid  {
+
+  .columns  {
+
+    background-color: $green;
+    padding: 1rem 1px;
+    text-align: center;
+    p  {
+
+      margin: 0;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .card  {
+
+    margin-bottom: 2rem;
+  }
+  .columns  {
+
+    margin-bottom: 2rem;
   }
 }
