@@ -60,6 +60,16 @@ body {
     margin-right: 1rem;
     line-height: 4rem;
   }
+
+  p  {
+
+    color: lighten($black, 20);
+  }
+  h5  {
+
+    color: lighten($black, 15);
+    margin: 15px 0;
+  }
 }
 
 .boxes  {
@@ -132,4 +142,38 @@ body {
 
     margin-bottom: 2rem;
   }
+}
+
+.title  {
+
+  margin: 0 0 10px 0;
+  color: $black;
+}
+
+.meh  {
+
+  margin-bottom: 25px;
+}
+
+.divider  {
+
+  height: 10px;
+  width: 30px;
+  background: $black;
+  border-radius: 2px;
+}
+
+.little  {
+
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  padding: 7px 23px;
+  background: #282c35;
+  color: #a1ca8b;
+}
+
+.link  {
+
+  margin-right: 0;
+  color: $blue;
 }
