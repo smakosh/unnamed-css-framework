@@ -20,6 +20,39 @@ body {
   padding: 2rem 0;
 }
 
+.header  {
+
+  padding: 6rem 0;
+  text-align: center;
+  .brand  {
+
+    padding: 4rem 0;
+    .logo  {
+
+      background-image: url('http://localhost:9000/images/unnamed.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 6rem 6rem;
+    }
+    h2  {
+
+      margin-top: 8rem;
+    }
+  }
+  .row  {
+
+    h3  {
+
+      color: $black;
+    }
+    p  {
+
+      color: lighten($black, 20);
+    }
+  }
+}
+
 .buttons {
 
   a  {
