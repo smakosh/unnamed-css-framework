@@ -35,6 +35,10 @@ body {
 
     margin-right: 2rem;
   }
+  .push-down  {
+
+    margin-bottom: 2rem;
+  }
 }
 
 .grid  {
@@ -49,6 +53,39 @@ body {
       margin: 0;
       color: #fff;
     }
+  }
+}
+
+.code  {
+
+  background-color: #282c35;
+  color: #9ea9bb;
+  font-size: 12pt;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  h4  {
+
+    color: #fff;
+  }
+
+  .pad  {
+
+    padding: 10px;
+  }
+
+  .div  {
+
+    color: #e26e81;
+  }
+
+  .class  {
+
+    color: #dc8b42;
+  }
+
+  .class-name  {
+
+    color: #a1ca8b;
   }
 }
 
