@@ -53,6 +53,14 @@ body {
   }
 }
 
+.instalation  {
+
+  .push-up  {
+
+    line-height: 6rem;
+  }
+}
+
 .buttons {
 
   a  {
@@ -176,4 +184,20 @@ body {
 
   margin-right: 0;
   color: $blue;
+}
+
+.footer  {
+
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  span  {
+
+    background-image: url('http://localhost:9000/images/unnamed.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: .4rem .9rem;
+    margin-right: 1rem;
+  }
 }
