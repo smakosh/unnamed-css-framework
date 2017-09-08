@@ -193,6 +193,69 @@
               <textarea></textarea>
             </div>
         </form>
+
+        <h4>Same with inputs you can change the colors just
+          by changing the color name, something like this</h4>
+          <p>for purple use <pre><code class="little">.purple-input</code></pre></p>
+          <p>for orange use <pre><code class="little">.orange-input</code></pre></p>
+          <p>for green use <pre><code class="little">.green-input</code></pre> </p>
+
+        <h4>You can change also the icon inside each input, something like this</h4>
+          <p>for email icon use <pre><code class="little">.email-icon</code></pre></p>
+          <p>for user icon use <pre><code class="little">.user-icon</code></pre></p>
+          <p>for edit icon use <pre><code class="little">.edit-icon</code></pre> </p>
+
+          <p>These icons & colors are the available ones for now, feel free to add your
+            custom class and simply paste ur font icon as shown in the code bellow</p>
+        <div class="code">
+          <h4 class="pad">Input text & email</h4>
+            <pre>
+              <code>
+
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">input-field purple-input</span>"&gt;
+                  &lt;<span class="div">span</span> <span class="class">class</span>="<span class="class-name">user-icon</span>"&gt;&lt;/<span class="div">span</span>&gt;
+                  &lt;<span class="div">input</span> <span class="class">type</span>="<span class="class-name">text</span>" /&gt;
+                &lt;/<span class="div">div</span>&gt;
+
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">input-field purple-input</span>"&gt;
+                  &lt;<span class="div">span</span> <span class="class">class</span>="<span class="class-name">email-icon</span>"&gt;&lt;/<span class="div">span</span>&gt;
+                  &lt;<span class="div">input</span> <span class="class">type</span>="<span class="class-name">email</span>" <span class="class">placeholder</span>="<span class="class-name">Enter your email...</span>" /&gt;
+                &lt;/<span class="div">div</span>&gt;
+
+            </code>
+          </pre>
+        </div>
+
+        <div class="code">
+          <h4 class="pad">Select</h4>
+            <pre>
+              <code>
+
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">input-field purple-input</span>"&gt;
+                  &lt;<span class="div">select</span>&gt;
+                    &lt;<span class="div">option</span> <span class="class">value</span>=""&gt;Unnamed&lt;/<span class="div">option</span>&gt;
+                    &lt;<span class="div">option</span> <span class="class">value</span>=""&gt;Unnamed&lt;/<span class="div">option</span>&gt;
+                    &lt;<span class="div">option</span> <span class="class">value</span>=""&gt;Unnamed&lt;/<span class="div">option</span>&gt;
+                  &lt;/<span class="div">select</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+
+            </code>
+          </pre>
+        </div>
+
+        <div class="code">
+          <h4 class="pad">Text area</h4>
+            <pre>
+              <code>
+
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">input-field purple-input</span>"&gt;
+                  &lt;<span class="div">span</span> <span class="class">class</span>="<span class="class-name">edit-icon</span>"&gt;&lt;/<span class="div">span</span>&gt;
+                  &lt;<span class="div">textarea</span>&gt;&lt;/<span class="div">textarea</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+
+            </code>
+          </pre>
+        </div>
     </div>
 
     <div class="container boxes">
@@ -321,9 +384,11 @@
           </div>
         </div>
       </div>
+      <h4>You can remove the hover effect by removing this class</h4>
+        <p><pre><code class="little">.card-hoverable</code></pre></p><br>
       <div class="row">
         <div class="column xlarge-12 small-12 code">
-          <h4 class="title">Full card</h4>
+          <h4>Full card</h4>
           <pre>
             <code>
               &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">card card-hoverable</span>"&gt;
@@ -441,6 +506,22 @@
           </div>
         </div>
       </div>
+
+      <h4>Don't forget to put columns inside a row class !</h4>
+      <p>Multiply this by 12 to get the UI shown above</p>
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-1 large-2 medium-3 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;1&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+          </code>
+        </pre>
+      </div>
       <div class="row">
         <div class="column xlarge-2 medium-4 small-12">
           <div class="columns">
@@ -478,6 +559,22 @@
           </div>
         </div>
       </div>
+
+      <p>Multiply this by 6 to get the UI shown above</p>
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-2 medium-4 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;2&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+          </code>
+        </pre>
+      </div>
+
       <div class="row">
         <div class="column xlarge-3 medium-6 small-12">
           <div class="columns">
@@ -503,6 +600,21 @@
           </div>
         </div>
       </div>
+
+      <p>Multiply this by 4 to get the UI shown above</p>
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-3 medium-6 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;3 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+          </code>
+        </pre>
+      </div>
       <div class="row">
         <div class="column xlarge-4 small-12">
           <div class="columns">
@@ -521,6 +633,21 @@
             <p>4 columns</p>
           </div>
         </div>
+      </div>
+
+      <p>Multiply this by 3 to get the UI shown above</p>
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-4 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;4 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+          </code>
+        </pre>
       </div>
       <div class="row">
         <div class="column xlarge-5 small-12">
@@ -536,6 +663,26 @@
         </div>
       </div>
 
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-5 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;5 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-7 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;7 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+          </code>
+        </pre>
+      </div>
+
       <div class="row">
         <div class="column xlarge-6 small-12">
           <div class="columns">
@@ -548,6 +695,21 @@
             <p>6 columns</p>
           </div>
         </div>
+      </div>
+
+      <p>Multiply this by 2 to get the UI shown above</p>
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-6 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;6 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+          </code>
+        </pre>
       </div>
 
       <div class="row">
@@ -564,6 +726,26 @@
         </div>
       </div>
 
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-7 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;7 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-5 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;5 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+          </code>
+        </pre>
+      </div>
+
       <div class="row">
         <div class="column xlarge-8 small-12">
           <div class="columns">
@@ -576,6 +758,26 @@
             <p>4</p>
           </div>
         </div>
+      </div>
+
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-8 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;8 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-4 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;4 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+          </code>
+        </pre>
       </div>
 
       <div class="row">
@@ -592,6 +794,26 @@
         </div>
       </div>
 
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-9 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;9 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-3 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;3 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+          </code>
+        </pre>
+      </div>
+
       <div class="row">
         <div class="column xlarge-10 small-12">
           <div class="columns">
@@ -604,6 +826,26 @@
             <p>2</p>
           </div>
         </div>
+      </div>
+
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-10 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;10 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-2 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;2 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+          </code>
+        </pre>
       </div>
 
       <div class="row">
@@ -620,12 +862,45 @@
         </div>
       </div>
 
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-11 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;11 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-1 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;1 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+
+          </code>
+        </pre>
+      </div>
+
       <div class="row">
         <div class="column xlarge-12 small-12">
           <div class="columns">
             <p>12 columns</p>
           </div>
         </div>
+      </div>
+
+      <div class="code">
+          <pre>
+            <code>
+
+              &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">column xlarge-12 small-12</span>"&gt;
+                &lt;<span class="div">div</span> <span class="class">class</span>="<span class="class-name">columns</span>"&gt;
+                  &lt;<span class="div">p</span>&gt;12 columns&lt;/<span class="div">p</span>&gt;
+                &lt;/<span class="div">div</span>&gt;
+              &lt;/<span class="div">div</span>&gt;
+          </code>
+        </pre>
       </div>
     </div>
     <!-- build:js scripts/vendor.js -->
