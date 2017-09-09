@@ -1,0 +1,81 @@
+@import "colors";
+@import "fonts";
+
+@function is-direction($value) {
+  $is-keyword: index((to top, to top right, to right top, to right, to bottom right, to right bottom, to bottom, to bottom left, to left bottom, to left, to left top, to top left), $value);
+  $is-angle: type-of($value) == 'number' and index('deg' 'grad' 'turn' 'rad', unit($value));
+
+  @return $is-keyword or $is-angle;
+}
+
+@function legacy-direction($value) {
+  @if is-direction($value) == false {
+    @error "Cannot convert `#{$value}` to legacy syntax because it doesn't seem to be a direction.";
+  }
+
+  $conversion-map: (
+    to top          : bottom,
+    to top right    : bottom left,
+    to right top    : left bottom,
+    to right        : left,
+    to bottom right : top left,
+    to right bottom : left top,
+    to bottom       : top,
+    to bottom left  : top right,
+    to left bottom  : right top,
+    to left         : right,
+    to left top     : right bottom,
+    to top left     : bottom right
+  );
+
+  @if map-has-key($conversion-map, $value) {
+    @return map-get($conversion-map, $value);
+  }
+
+  @return 90deg - $value;
+}
+
+@mixin linear-gradient($direction, $color-stops...) {
+  // Direction has been omitted and happens to be a color-stop
+  @if is-direction($direction) == false {
+    $color-stops: $direction, $color-stops;
+    $direction: 180deg;
+  }
+
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+  background: linear-gradient($direction, $color-stops);
+}
+
+.gradient-green {
+  @include linear-gradient($green, $blue);
+  box-shadow: 0px 4px 7px 0px rgba(18, 194, 211, 0.48);
+  transition: all 0.5s;
+  &:hover {
+
+    box-shadow: 0px 7px 13px 0px rgba(18, 194, 211, 0.80);
+    transition: all 0.5s;
+  }
+}
+
+.gradient-orange {
+  @include linear-gradient($yellow, $orange);
+  box-shadow: 0px 4px 7px 0px rgba(255, 50, 39, 0.48);
+  transition: all 0.5s;
+  &:hover {
+
+    box-shadow: 0px 7px 13px 0px rgba(255, 50, 39, 0.80);
+    transition: all 0.5s;
+  }
+}
+
+.gradient-purple {
+  @include linear-gradient($dark-blue, $purple);
+  box-shadow: 0px 4px 7px 0px rgba(170, 49, 255, 0.48);
+  transition: all 0.5s;
+  &:hover {
+
+    box-shadow: 0px 7px 13px 0px rgba(170, 49, 255, 0.80);
+    transition: all 0.5s;
+  }
+}

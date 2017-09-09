@@ -40,6 +40,20 @@ body {
       margin-top: 8rem;
     }
   }
+  .github  {
+
+    color: #000;
+    font-size: 16pt;
+    font-weight: 500;
+    &:visited  {
+
+      color: $black;
+    }
+    &:focus  {
+
+      color: $black;
+    }
+  }
   .row  {
 
     h3  {
@@ -250,7 +264,6 @@ body {
 
 pre > code  {
 
-    display: block;
     white-space: pre-wrap;
     word-wrap: break-word;
   }
