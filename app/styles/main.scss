@@ -59,6 +59,16 @@ body {
 
     line-height: 6rem;
   }
+  .cdn  {
+
+    color: #e4e4e4;
+    padding: 14px 40px;
+    line-height: 30px;
+  }
+  .download  {
+
+    margin: 30px 0 0 0;
+  }
 }
 
 .buttons {
@@ -114,6 +124,15 @@ body {
   font-size: 12pt;
   margin-bottom: 1rem;
   border-radius: 5px;
+  pre  {
+
+    margin-left: -5rem;
+  }
+  code  {
+
+    padding: 0.2rem 0.5rem;
+    font-size: 90%;
+  }
   h4  {
 
     color: #fff;
@@ -150,6 +169,10 @@ body {
 
     margin-bottom: 2rem;
   }
+  button  {
+
+    margin-bottom: 14px;
+  }
 }
 
 .title  {
@@ -182,7 +205,7 @@ body {
 
 .link  {
 
-  margin-right: 0;
+  margin-right: 0px !important;
   color: $blue;
 }
 
@@ -199,5 +222,47 @@ body {
     background-size: cover;
     padding: .4rem .9rem;
     margin-right: 1rem;
+  }
+  a  {
+
+    color: $black;
+  }
+  a:visited  {
+
+    color: $black;
+  }
+}
+
+.description  {
+
+  margin: 3rem 0 10px 0;
+}
+
+.flexed  {
+
+  display: flex;
+  align-items: center;
+  pre  {
+
+    margin: 0 10px 0 10px;
+  }
+}
+
+pre > code  {
+
+    display: block;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+@media screen and (max-width: 680px) {
+  .footer  {
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    a  {
+
+      margin-bottom: 20px;
+    }
   }
 }

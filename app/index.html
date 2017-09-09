@@ -27,7 +27,7 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="container header">
+    <div class="container header" id="top">
       <div class="brand">
         <a href="#" class="logo"></a>
         <h2>Unnamed</h2>
@@ -56,13 +56,13 @@
     <div class="container instalation">
       <h3 class="title">Instalation</h3>
       <div class="divider"></div>
-      <p>CDN</p>
-      <pre><code class="little">&lt;<span class="div">link</span> <span class="class">rel</span>="<span class="class-name">stylesheet</span>" <span class="class">href</span>="<span class="class-name">http://smakosh.com/unnamed.css</span>"&gt;</code></pre></p>
+      <h4>CDN</h4>
+        <pre><code class="cdn little">&lt;link rel="stylesheet" href="http://smakosh.com/unnamed.css"&gt;</code></pre>
 
-      <p>Npm</p>
-      <pre><code class="little">npm install unnamed</code></pre></p>
-
-      <a href="#" class="btn btn-rounded btn-outlined purple-btn push-up" download>Download</a>
+        <h4>Minimized</h4>
+          <pre><code class="cdn little">&lt;link rel="stylesheet" href="http://smakosh.com/unnamed.min.css"&gt;</code></pre>
+        <h4 class="download">Or download both</h4>
+        <a href="#" class="btn btn-rounded btn-outlined purple-btn push-up" download>Download</a>
     </div>
 
     <div class="container buttons">
@@ -104,13 +104,13 @@
         </div>
       </div>
 
-      <h4>There are 3 types of buttons and you can change the colors just
+      <h4 class="description">There are 3 types of buttons and you can change the colors just
         by changing the color name, something like this</h4>
         <p>for purple use <pre><code class="little">.gradient-purple</code></pre></p>
         <p>for orange use <pre><code class="little">.gradient-orange</code></pre></p>
         <p>for green use <pre><code class="little">.gradient-green</code></pre> </p>
 
-        <p>For the outlined button use these classes</p>
+        <h4 class="description">For the outlined button use these classes</h4>
         <p>for purple use <pre><code class="little">.purple-btn</code></pre></p>
         <p>for orange use <pre><code class="little">.orange-btn</code></pre></p>
         <p>for green use <pre><code class="little">.green-btn</code></pre></p>
@@ -211,13 +211,13 @@
             </div>
         </form>
 
-        <h4>Same with inputs you can change the colors just
+        <h4 class="description">Same with inputs you can change the colors just
           by changing the color name, something like this</h4>
           <p>for purple use <pre><code class="little">.purple-input</code></pre></p>
           <p>for orange use <pre><code class="little">.orange-input</code></pre></p>
           <p>for green use <pre><code class="little">.green-input</code></pre> </p>
 
-        <h4>You can change also the icon inside each input, something like this</h4>
+        <h4 class="description">You can change also the icon inside each input, something like this</h4>
           <p>for email icon use <pre><code class="little">.email-icon</code></pre></p>
           <p>for user icon use <pre><code class="little">.user-icon</code></pre></p>
           <p>for edit icon use <pre><code class="little">.edit-icon</code></pre> </p>
@@ -328,7 +328,7 @@
     </div>
 
     <div class="container">
-      <h4>Same here you can change the colors just
+      <h4 class="description">Same here you can change the colors just
         by changing the color name, something like this</h4>
         <p>for purple use <pre><code class="little">.purple-checkbox</code></pre></p>
         <p>for orange use <pre><code class="little">.orange-checkbox</code></pre></p>
@@ -401,7 +401,7 @@
           </div>
         </div>
       </div>
-      <h4>You can remove the hover effect by removing this class</h4>
+      <h4 class="description">You can remove the hover effect by removing this class</h4>
         <p><pre><code class="little">.card-hoverable</code></pre></p><br>
       <div class="row">
         <div class="column xlarge-12 small-12 code">
@@ -524,7 +524,7 @@
         </div>
       </div>
 
-      <h4>Don't forget to put columns inside a row class !</h4>
+      <h4 class="description flexed">Don't forget to put columns inside a <pre><code class="little">.row</code></pre> class !</h4>
       <p>Multiply this by 12 to get the UI shown above</p>
       <div class="code">
           <pre>
@@ -922,9 +922,9 @@
     </div>
 
     <div class="container footer">
-      <a href="#">To the top</a>
-      <a href="#">© Unnamed | All rights reserved 2017</a>
-      <a href="#"><span></span> Made by Smakosh</a>
+      <a href="#top">To the top</a>
+      <a href="http://smakosh.com/unnamed/index.html">© Unnamed | All rights reserved 2017</a>
+      <a href="http://smakosh.com"><span></span> Made by Smakosh</a>
     </div>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
