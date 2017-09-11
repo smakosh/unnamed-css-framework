@@ -9,4 +9,12 @@ Minimized
 
 <pre><code class="cdn little">&lt;link rel="stylesheet" href="http://smakosh.com/unnamed.min.css"&gt;</code></pre>
 
-Doc : http://smakosh.com/unnamed/index.html
+Npm soon...
+
+# Documentation
+
+http://smakosh.com/unnamed/index.html
+
+# License
+
+MIT © Unnamed
