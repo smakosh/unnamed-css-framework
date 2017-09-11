@@ -31,6 +31,21 @@
   }
 }
 
+.gradient-black {
+
+  background: $black !important;
+}
+
+.black-btn  {
+
+  border-color: $black;
+  color: $black;
+  &:hover {
+
+    background-color: $black;
+  }
+}
+
 .green-btn  {
 
   border-color: $green;

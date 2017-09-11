@@ -79,6 +79,7 @@ input, textarea  {
 
 select  {
 
+  background: #fff;
   padding: .9rem .5rem .9rem .5rem;
   margin: 1.2rem 0;
 }
@@ -187,6 +188,45 @@ label  {
 .green-checkbox:checked + span:before  {
 
   color: $green !important;
+}
+
+.black-input  {
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="search"],
+  input[type="number"],
+  input[type="file"],
+  input[type="tel"],
+  input[type="url"],
+  select,
+  textarea,
+  textarea[type="text"]  {
+    border-color: $black;
+    &:focus  {
+
+      border-color: lighten($black, 10);
+    }
+  }
+    span:before  {
+
+      color: $black;
+    }
+}
+
+.black-checkbox  {
+
+  + span:before  {
+
+    border-color: $black !important;
+    color: #fff !important;
+  }
+}
+
+.black-checkbox:checked + span:before  {
+
+  color: $black !important;
 }
 
 .orange-input  {

@@ -69,6 +69,19 @@
     <div class="container buttons">
       <h3 class="title">Buttons</h3>
       <div class="divider"></div>
+
+      <div class="row">
+        <div class="column xlarge-4 small-12">
+          <button href="#" class="btn btn-primary gradient-black">btn-primary</button>
+        </div>
+        <div class="column xlarge-4 small-12">
+          <button href="#" class="btn btn-rounded gradient-black">btn-rounded</button>
+        </div>
+        <div class="column xlarge-4 small-12">
+          <button href="#" class="btn btn-rounded btn-outlined black-btn">btn-outlined</button>
+        </div>
+      </div>
+
       <div class="row">
         <div class="column xlarge-4 small-12">
           <button href="#" class="btn btn-primary gradient-green">btn-primary</button>
@@ -107,6 +120,7 @@
 
       <h4 class="description">There are 3 types of buttons and you can change the colors just
         by changing the color name, something like this</h4>
+        <p>for black use <pre><code class="little">.gradient-black</code></pre></p>
         <p>for purple use <pre><code class="little">.gradient-purple</code></pre></p>
         <p>for orange use <pre><code class="little">.gradient-orange</code></pre></p>
         <p>for green use <pre><code class="little">.gradient-green</code></pre> </p>
@@ -123,6 +137,7 @@
         <h4 class="pad">Buttons</h4>
           <pre>
             <code>
+                <span class="class-name">.btn btn-hover btn-primary gradient-black</span><br>
                 <span class="class-name">.btn btn-hover btn-primary gradient-purple</span><br>
                 <span class="class-name">.btn btn-hover btn-rounded gradient-purple</span><br>
                 <span class="class-name">.btn btn-rounded btn-outlined gradient-purple</span><br>
@@ -134,6 +149,32 @@
     <div class="container">
       <h3 class="title">Forms</h3>
       <div class="divider"></div>
+      <form class="row">
+
+          <div class="input-field black-input column xlarge-6 small-12">
+            <span class="user-icon"></span>
+            <input type="text" />
+          </div>
+
+          <div class="input-field black-input column xlarge-6 small-12">
+            <span class="email-icon"></span>
+            <input type="email" placeholder="Enter your email..." />
+          </div>
+
+          <div class="input-field black-input column xlarge-6 small-12">
+            <select>
+              <option value="">Unnamed</option>
+              <option value="">Unnamed</option>
+              <option value="">Unnamed</option>
+            </select>
+          </div>
+
+          <div class="input-field black-input text-area-field column xlarge-6 small-12">
+            <span class="edit-icon"></span>
+            <textarea></textarea>
+          </div>
+      </form>
+
         <form class="row">
 
             <div class="input-field green-input column xlarge-6 small-12">
@@ -214,6 +255,7 @@
 
         <h4 class="description">Same with inputs you can change the colors just
           by changing the color name, something like this</h4>
+          <p>for black use <pre><code class="little">.black-input</code></pre></p>
           <p>for purple use <pre><code class="little">.purple-input</code></pre></p>
           <p>for orange use <pre><code class="little">.orange-input</code></pre></p>
           <p>for green use <pre><code class="little">.green-input</code></pre> </p>
@@ -281,6 +323,22 @@
       <div class="divider meh"></div>
       <form class="push-down">
         <label>
+          <input type="checkbox" class="black-checkbox"/>
+          <span></span>
+        </label>
+
+        <label>
+          <input type="radio" name="yow" class="black-checkbox"/>
+          <span></span>
+        </label>
+        <label>
+          <input type="radio" name="yow" class="black-checkbox"/>
+          <span></span>
+        </label>
+      </form>
+
+      <form class="push-down">
+        <label>
           <input type="checkbox" class="green-checkbox"/>
           <span></span>
         </label>
@@ -331,6 +389,7 @@
     <div class="container">
       <h4 class="description">Same here you can change the colors just
         by changing the color name, something like this</h4>
+        <p>for black use <pre><code class="little">.black-checkbox</code></pre></p>
         <p>for purple use <pre><code class="little">.purple-checkbox</code></pre></p>
         <p>for orange use <pre><code class="little">.orange-checkbox</code></pre></p>
         <p>for green use <pre><code class="little">.green-checkbox</code></pre> </p>
@@ -920,6 +979,16 @@
           </code>
         </pre>
       </div>
+    </div>
+
+    <div class="container">
+      <h3 class="title">Useful classes</h3>
+      <div class="divider"></div>
+
+      <h4 class="description">To center, left or right align text use these classes: </h4>
+      <p>To center it <pre><code class="little">.center-text</code></pre></p>
+      <p>To left align it <pre><code class="little">.left-text</code></pre></p>
+      <p>To right align it use <pre><code class="little">.right-text</code></pre></p> 
     </div>
 
     <div class="container footer">

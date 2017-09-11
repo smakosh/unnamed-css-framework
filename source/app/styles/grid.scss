@@ -16,8 +16,6 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 // grid variables
 $number-columns: 12 !default;
 $gutter-width: 1.5rem !default;
-$element-top-margin: $gutter-width/3 !default;
-$element-bottom-margin: ($gutter-width*2)/3 !default;
 
 .container-full {
   margin: 0 auto;
@@ -38,10 +36,6 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
   .container {
     width: 70%;
   }
-}
-.container .row {
-  margin-left: (-1 * $gutter-width / 2);
-  margin-right: (-1 * $gutter-width / 2);
 }
 
 // Mixins to eliminate code repitition
@@ -135,5 +129,16 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
         $i: $i + 1;
       }
     }
+  }
+}
+
+@media #{$extra-large-and-up}  {
+  .column:first-child  {
+
+    padding-left: 0px !important;
+  }
+  .column:last-child  {
+
+    padding-right: 0px !important;
   }
 }
