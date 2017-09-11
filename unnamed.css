@@ -367,10 +367,14 @@
 }
 
 @media only screen and (min-width: 1201px) {
-  .column:first-child {
+  .column-first {
     padding-left: 0px !important;
   }
-  .column:last-child {
+  .column-last {
+    padding-right: 0px !important;
+  }
+  .single-column {
+    padding-left: 0px !important;
     padding-right: 0px !important;
   }
 }
