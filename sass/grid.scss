@@ -27,6 +27,15 @@ $gutter-width: 1.5rem !default;
   max-width: 1280px;
   width: 90%;
 }
+
+.container  {
+
+  .row {
+    margin-left: (-1 * $gutter-width / 2);
+    margin-right: (-1 * $gutter-width / 2);
+  }
+}
+
 @media #{$medium-and-up} {
   .container {
     width: 85%;
@@ -72,14 +81,21 @@ $gutter-width: 1.5rem !default;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 1rem 0;
+  margin-bottom: .5rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  // Clear floating children
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   .column {
     box-sizing: border-box;
     padding: 0 $gutter-width / 2;
     min-height: 1px;
+    float: left;
 
     $i: 1;
     @while $i <= $number-columns {
