@@ -147,19 +147,3 @@ $gutter-width: 1.5rem !default;
     }
   }
 }
-
-@media #{$extra-large-and-up}  {
-  .column-first  {
-
-    padding-left: 0px !important;
-  }
-  .column-last  {
-
-    padding-right: 0px !important;
-  }
-  .single-column  {
-
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-}
