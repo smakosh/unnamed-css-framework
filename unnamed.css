@@ -362,9 +362,11 @@ textarea[type=text] {
     transition: all .2s ease; }
 
 input, textarea {
+  -webkit-appearance: none;
   padding: .9rem 1rem .9rem 2rem; }
 
 select {
+  -webkit-appearance: none;
   background: #fff;
   padding: .9rem .5rem .9rem .5rem;
   margin: 1.2rem 0; }
@@ -618,6 +620,7 @@ button, input, select, textarea:focus {
   outline: none; }
 
 button {
+  -webkit-appearance: none;
   background-color: unset;
   border: none; }
 
