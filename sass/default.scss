@@ -8,8 +8,14 @@ button, input, select, textarea:focus  {
   outline: none;
 }
 
+input, select, textarea  {
+  
+  -webkit-appearance: none;
+}
+
 button  {
 
   background-color: unset;
   border: none;
+  -webkit-appearance: none;
 }
