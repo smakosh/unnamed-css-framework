@@ -1,14 +1,6 @@
 @charset "UTF-8";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i");
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i");
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i");
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i");
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i");
 .container-full {
   margin: 0 auto;
   width: 100%; }
@@ -297,6 +289,17 @@
         left: auto;
         right: auto; } }
 
+@media only screen and (max-width: 992px) {
+  .hide-tablet-down {
+    display: none; } }
+
+@media only screen and (max-width: 600px) {
+  .hide-mobile {
+    display: none; } }
+
+.hide {
+  display: none; }
+
 form {
   width: 100%; }
 
@@ -320,17 +323,18 @@ form {
 .edit-icon:before {
   content: ''; }
 
-input[type=text],
-input[type=password],
-input[type=email],
-input[type=search],
-input[type=number],
-input[type=file],
-input[type=tel],
-input[type=url],
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="number"],
+input[type="file"],
+input[type="tel"],
+input[type="url"],
 select,
 textarea,
 textarea[type=text] {
+  -webkit-appearance: none;
   width: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -345,14 +349,14 @@ textarea[type=text] {
   border-style: solid;
   border-radius: 5px;
   font-family: 'roboto'; }
-  input[type=text]:focus,
-  input[type=password]:focus,
-  input[type=email]:focus,
-  input[type=search]:focus,
-  input[type=number]:focus,
-  input[type=file]:focus,
-  input[type=tel]:focus,
-  input[type=url]:focus,
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus,
+  input[type="search"]:focus,
+  input[type="number"]:focus,
+  input[type="file"]:focus,
+  input[type="tel"]:focus,
+  input[type="url"]:focus,
   select:focus,
   textarea:focus,
   textarea[type=text]:focus {
@@ -362,11 +366,9 @@ textarea[type=text] {
     transition: all .2s ease; }
 
 input, textarea {
-  -webkit-appearance: none;
   padding: .9rem 1rem .9rem 2rem; }
 
 select {
-  -webkit-appearance: none;
   background: #fff;
   padding: .9rem .5rem .9rem .5rem;
   margin: 1.2rem 0; }
@@ -613,6 +615,11 @@ label {
     -o-transition: all .3s;
     transition: all .3s; }
 
+.responsive-image {
+  overflow: hidden; }
+  .responsive-image img {
+    width: 100%; }
+
 a {
   text-decoration: none; }
 
@@ -620,9 +627,9 @@ button, input, select, textarea:focus {
   outline: none; }
 
 button {
-  -webkit-appearance: none;
   background-color: unset;
-  border: none; }
+  border: none;
+  -webkit-appearance: none; }
 
 .gradient-green {
   background: #1fdeb3;
