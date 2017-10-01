@@ -20,6 +20,16 @@ body {
   padding: 2rem 0;
 }
 
+.container-full  {
+
+  padding: 1rem 0;
+  background: #eaeaea;
+  .container  {
+
+    padding: 0;
+  }
+}
+
 .header  {
 
   padding: 6rem 0;
@@ -139,40 +149,30 @@ body {
   }
 }
 
-.grid  {
 
-  .columns  {
+.columns  {
 
-    background-color: $green;
-    padding: 1rem 1px;
-    text-align: center;
-    p  {
+  background-color: $green;
+  padding: 1rem 1px;
+  text-align: center;
+  p  {
 
-      margin: 0;
-      color: #fff;
-    }
+    margin: 0;
+    color: #fff;
   }
 }
 
+
 .code  {
 
-  background-color: #282c35;
   color: #9ea9bb;
   font-size: 12pt;
   margin-bottom: 1rem;
   border-radius: 5px;
-  pre  {
 
-    margin-left: -5rem;
-  }
-  code  {
-
-    padding: 0.2rem 0.5rem;
-    font-size: 90%;
-  }
   h4  {
 
-    color: #fff;
+    color: #282c35;
   }
 
   .pad  {
@@ -234,11 +234,14 @@ body {
 
 .little  {
 
-  border: 1px solid #d8d8d8;
-  border-radius: 4px;
-  padding: 7px 23px;
-  background: #282c35;
   color: #a1ca8b;
+  max-width: 15%;
+  @media screen and (max-width: $tablet){
+    max-width: 30%;
+  }
+  @media screen and (max-width: $mobile){
+    max-width: 80%;
+  }
 }
 
 .link  {
@@ -293,10 +296,17 @@ body {
   }
 }
 
-pre > code  {
+pre  {
 
-    white-space: pre-wrap;
-    word-wrap: break-word;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #282c35;
+    border-radius: 3px;
+    word-break: normal;
+    word-wrap: normal;
+    color: white;
   }
 
 .iframe  {
