@@ -323,6 +323,10 @@ form {
 .edit-icon:before {
   content: ''; }
 
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
 input[type="text"],
 input[type="password"],
 input[type="email"],
