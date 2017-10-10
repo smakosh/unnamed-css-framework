@@ -1,7 +1,7 @@
 # unnamed-css-framework
 A colorful css framework made by a human not an Ai
 
-CDN
+Non-minimized
 
 <pre><code>&lt;link rel="stylesheet" href="http://smakosh.com/unnamed.css"&gt;</code></pre>
 
