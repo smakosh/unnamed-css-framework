@@ -1,0 +1,49 @@
+@import 'grid';
+.nav  {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  @media screen and (max-width: $mobile)  {
+
+    flex-direction: column;
+    justify-content: center;
+  }
+  .brand-logo  {
+
+    @media screen and (max-width: $mobile)  {
+
+      margin-bottom: 2rem;
+    }
+    .branding  {
+
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+  }
+
+  .links  {
+
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: $mobile)  {
+
+      flex-direction: column;
+      justify-content: center;
+    }
+    a  {
+
+      padding: 0 2rem;
+      color: #fff;
+      transition: .5s;
+      &:hover  {
+
+        color: #212121;
+        transition: .5s;
+      }
+    }
+  }
+}

@@ -75,3 +75,18 @@
     background-color: $purple-btn;
   }
 }
+
+button:disabled  {
+
+  box-shadow: unset;
+  opacity: .8;
+  background: #505050;
+  color: #fff;
+  border: unset;
+}
+
+button:disabled:hover  {
+
+  box-shadow: unset;
+  background: #505050;
+}

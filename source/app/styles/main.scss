@@ -8,6 +8,7 @@
 @import "default";
 @import "gradient";
 @import "buttons";
+@import "navbar";
 
 body {
   font-family: 'roboto';
@@ -92,6 +93,19 @@ body {
   .download  {
 
     margin: 30px 0 0 0;
+  }
+}
+
+.nav  {
+
+  .brand-logo  {
+
+    .branding  {
+
+      background-color: #fff;
+      padding: .5rem 1rem;
+      border-radius: 5px;
+    }
   }
 }
 
