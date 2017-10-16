@@ -80,7 +80,7 @@ button:disabled  {
 
   box-shadow: unset;
   opacity: .8;
-  background: #505050;
+  background: $disabled;
   color: #fff;
   border: unset;
 }
@@ -88,5 +88,5 @@ button:disabled  {
 button:disabled:hover  {
 
   box-shadow: unset;
-  background: #505050;
+  background: $disabled;
 }

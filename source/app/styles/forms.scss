@@ -6,6 +6,56 @@ form  {
   width: 100%;
 }
 
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="number"],
+input[type="file"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea,
+textarea[type=text]  {
+
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  transition: all .2s ease;
+  text-align: left;
+  border-width: 1px;
+  border-color: $black;
+  border-style: solid;
+  border-radius: 5px;
+  font-family: 'roboto';
+  &:focus  {
+
+    border-color: $black;
+    transition: all .2s ease;
+  }
+}
+
+input, textarea  {
+
+  padding: .9rem 1rem .9rem 2rem;
+  -webkit-appearance:none;
+}
+
+select  {
+
+  background: #fff;
+  padding: .9rem .5rem .9rem .5rem;
+  margin: 1.2rem 0;
+}
+
+textarea  {
+
+  resize: vertical;
+  min-height: 8rem;
+  margin: 0;
+}
+
 .input-field  {
 
   span:before  {
@@ -40,56 +90,6 @@ form  {
 .edit-icon:before  {
 
   content: '';
-}
-
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="search"],
-input[type="number"],
-input[type="file"],
-input[type="tel"],
-input[type="url"],
-select,
-textarea,
-textarea[type=text]  {
-
-  -webkit-appearance:none;
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  box-sizing: border-box;
-  transition: all .2s ease;
-  text-align: left;
-  border-width: 1px;
-  border-color: $black;
-  border-style: solid;
-  border-radius: 5px;
-  font-family: 'roboto';
-  &:focus  {
-
-    border-color: $black;
-    transition: all .2s ease;
-  }
-}
-
-input, textarea  {
-
-  padding: .9rem 1rem .9rem 2rem;
-}
-
-select  {
-
-  background: #fff;
-  padding: .9rem .5rem .9rem .5rem;
-  margin: 1.2rem 0;
-}
-
-textarea  {
-
-  resize: vertical;
-  min-height: 8rem;
-  margin: 0;
 }
 
 label  {
