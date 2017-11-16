@@ -27,7 +27,7 @@ textarea[type=text]  {
   border-width: 1px;
   border-color: $black;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 2px;
   font-family: 'roboto';
   &:focus  {
 
@@ -104,8 +104,8 @@ label  {
       font-family: 'fontawesome';
       border: 1px solid $black;
       padding: .4rem .4rem;
-      border-radius: .2rem;
-      transition: .5s;
+      border-radius: 2px;
+      transition: .2s;
       color: #fff;
       font-size: 16px;
     }
@@ -117,8 +117,8 @@ label  {
     font-family: 'fontawesome';
     border: 1px solid $black;
     padding: .4rem .4rem;
-    border-radius: .2rem;
-    transition: .5s;
+    border-radius: 2px;
+    transition: .2s;
     color: $black;
     font-size: 16px;
   }
@@ -131,11 +131,11 @@ label  {
       content: '';
       font-family: 'fontawesome';
       border: 1px solid $black;
-      padding: .4rem .5rem;
+      padding: .3rem .4rem;
       border-radius: 100%;
-      transition: .5s;
+      transition: .2s;
       color: #fff;
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 
@@ -144,11 +144,11 @@ label  {
     content: '';
     font-family: 'fontawesome';
     border: 1px solid $black;
-    padding: .4rem .5rem;
+    padding: .3rem .4rem;
     border-radius: 100%;
-    transition: .5s;
+    transition: .2s;
     color: $black;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
