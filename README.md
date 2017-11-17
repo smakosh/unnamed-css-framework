@@ -3,19 +3,19 @@ A colorful css framework made by a human not an Ai
 
 Non-minimized
 
-<pre><code>&lt;link rel="stylesheet" href="http://smakosh.com/unnamed.css"&gt;</code></pre>
+`<link rel="stylesheet" href="http://smakosh.com/unnamed.css"/>`
 
 CDN | Non-minimized
 
-<pre><code>&lt;link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.css"&gt;</code></pre>
+`<link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.css"/>`
 
 Minimized
 
-<pre><code>&lt;link rel="stylesheet" href="http://smakosh.com/unnamed.min.css"&gt;</code></pre>
+`<link rel="stylesheet" href="http://smakosh.com/unnamed.min.css"/>`
 
 CDN | minimized
 
-<pre><code>&lt;link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.min.css"&gt;</code></pre>
+`<link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.min.css"/>`
 
 Accelerated by <a href="https://www.keycdn.com/?ref=unnamed-repo">KeyCDN</a>
 
@@ -29,15 +29,15 @@ http://smakosh.com/unnamed/index.html
 
 <h3>Clone</h3>
 
-<pre><code>git clone https://github.com/smakosh/Unnamed-getting-started.git</code></pre>
+`git clone https://github.com/smakosh/Unnamed-getting-started.git`
 
-<pre><code>cd Unnamed-getting-started && yarn install && bower install</code></pre>
+`cd Unnamed-getting-started && yarn install && bower install`
 
-<pre><code>gulp serve</code></pre>
+`gulp serve`
 
 <h3>Build</h3>
 
-<pre><code>gulp build</code></pre>
+`gulp build`
 
 # License
 
