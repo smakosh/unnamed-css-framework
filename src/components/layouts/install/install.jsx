@@ -9,7 +9,7 @@ const Install = () => (
         <h4>NPM</h4>
         <pre>npm install unnamed</pre>
         
-        <h4>Include one of these links:</h4>
+        <h4>For Including links (old way):</h4>
         <pre>&lt;link rel="stylesheet" href="http://smakosh.com/unnamed.css"&gt;</pre>
         
         <h4>Minimized</h4>
