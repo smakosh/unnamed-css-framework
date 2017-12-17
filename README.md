@@ -23,7 +23,7 @@ Npm soon...
 
 # Documentation
 
-http://smakosh.com/unnamed/index.html
+http://unnamed.smakosh.com
 
 # Development
 
