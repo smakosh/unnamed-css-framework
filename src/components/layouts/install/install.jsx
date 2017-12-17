@@ -5,7 +5,10 @@ const Install = () => (
     <div className="container instalation" id="installation">
         <h3 className="title">Installation</h3>
         <div className="divider"></div>
-
+        
+        <h4>NPM</h4>
+        <pre>npm install unnamed</pre>
+        
         <h4>Include one of these links:</h4>
         <pre>&lt;link rel="stylesheet" href="http://smakosh.com/unnamed.css"&gt;</pre>
         
