@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+@media screen and (max-width: 680px) {
+.footer {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+}
+.footer span {
+    background-image: url("../assets/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: .45rem 1rem;
+    margin-right: 1rem;
+}
+.footer a {
+    color: #212121;
+}
+@media screen and (max-width: 680px) {
+    .footer a {
+        margin-bottom: 20px;
+    }
+}
+.footer a:visited {
+    color: #212121;
+}

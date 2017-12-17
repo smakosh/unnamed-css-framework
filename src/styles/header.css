@@ -1,0 +1,115 @@
+.header {
+    padding: 5rem 0 0 0;
+    text-align: center;
+}
+.header .brand {
+    padding: 4rem 0 0 0;
+}
+.header .brand .logo {
+    background-image: url("../assets/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5.5rem 6rem;
+}
+.header .brand h2 {
+    margin-top: 8rem;
+}
+.header .github {
+    color: #000;
+    font-size: 16pt;
+    font-weight: 500;
+}
+.header .github:visited {
+    color: #212121;
+}
+.header .github:focus {
+    color: #212121;
+}
+.header .row h3 {
+    color: #212121;
+}
+.header .row p {
+    color: #545454;
+}
+
+.header .github-buttons {
+
+    padding: 1rem 0;
+}
+
+.header .buttons  {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .buttons a:first-child {
+    margin-right: 2rem;
+}
+.header .buttons a:last-child {
+    margin-left: 2rem;
+}
+
+.header .buttons .paypal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1px;
+}
+
+.header .buttons .paypal:visited {
+    color: #7274ff;
+}
+
+.header .buttons .paypal:hover {
+    color: #fff;
+}
+
+.header .buttons .paypal i {
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .header .buttons  {
+        flex-direction: column;
+    }
+    .header .buttons a:first-child {
+        margin-left: unset;
+    }
+    .header .buttons a:last-child {
+        margin-left: unset;
+    }
+}
+
+.instalation .push-up {
+    line-height: 6rem;
+}
+.instalation .cdn {
+    color: #e4e4e4;
+    padding: 14px 40px;
+    line-height: 30px;
+}
+.instalation .download {
+    margin: 30px 0 0 0;
+}
+
+.iframe {
+    padding-left: 10px;
+}
+.forkit {
+    margin-left: 10px;
+}
+.flexed-links {
+    padding: 4rem 0 0 0;
+}
+.flexed-links a:first-child {
+    margin-right: 2rem;
+}
+.flexed-links a:last-child {
+    margin-left: 2rem;
+}
+.flexed-links a {
+    color: #12c3d2;
+}
