@@ -29,6 +29,16 @@ http://unnamed.smakosh.com
 
 # Development
 
+# For web apps
+
+Npm
+
+`npm install unnamed`
+
+import it if you're using webpack: `import 'unnamed'`
+
+# For landing pages
+
 <h3>Clone</h3>
 
 `git clone https://github.com/smakosh/Unnamed-getting-started.git`
