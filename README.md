@@ -25,7 +25,7 @@ Accelerated by <a href="https://www.keycdn.com/?ref=unnamed-repo">KeyCDN</a>
 
 # Documentation
 
-http://unnamed.smakosh.com
+https://unnamed.smakosh.com
 
 # Development
 
@@ -35,7 +35,7 @@ Npm
 
 `npm install unnamed`
 
-import it if you're using webpack: `import 'unnamed'`
+Usage with webpack: `import 'unnamed'`
 
 # For landing pages
 
