@@ -25,11 +25,11 @@ body {
   .brand  {
     padding: 4rem 0;
     .logo  {
-      background-image: url('http://localhost:9000/images/unnamed.svg');
+      background-image: url('../images/logo.svg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      padding: 6rem 6rem;
+      padding: 6rem 6.8rem;
     }
     h2  {
       margin-top: 8rem;
@@ -134,11 +134,11 @@ body {
       flex-direction: column;
   }
   span  {
-    background-image: url('http://localhost:9000/images/unnamed.svg');
+    background-image: url('../images/logo.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: .4rem .9rem;
+    padding: .4rem 1rem;
     margin-right: 1rem;
   }
   a  {
