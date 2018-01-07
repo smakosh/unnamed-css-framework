@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import '../../styles/footer.css'
 
-const KeyCDN = 'https://www.keycdn.com/?ref=unnamed'
+const KeyCDN = 'https://www.keycdn.com/?a=39455'
 const Smakosh = 'http://smakosh.com'
 
 const Footer = () => (
