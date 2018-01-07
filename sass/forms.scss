@@ -1,8 +1,6 @@
 @import "colors";
-@import "fonts";
 
 form  {
-
   width: 100%;
 }
 
@@ -17,7 +15,6 @@ input[type="url"],
 select,
 textarea,
 textarea[type=text]  {
-
   width: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -28,22 +25,18 @@ textarea[type=text]  {
   border-color: $black;
   border-style: solid;
   border-radius: 2px;
-  font-family: 'roboto';
   &:focus  {
-
     border-color: $black;
     transition: all .2s ease;
   }
 }
 
 input, textarea  {
-
   padding: .9rem 1rem .9rem 2rem;
   -webkit-appearance:none;
 }
 
 select  {
-
   background: #fff;
   padding: .9rem .5rem .9rem .5rem;
   margin: 1.2rem 0;
@@ -57,9 +50,7 @@ textarea  {
 }
 
 .input-field  {
-
   span:before  {
-
     cursor: pointer;
     position: relative;
     font-family: 'fontawesome';
@@ -70,36 +61,28 @@ textarea  {
 }
 
 .text-area-field  {
-
   span:before  {
-
     top: 1.8rem;
   }
 }
 
 .user-icon:before  {
-
   content: '';
 }
 
 .email-icon:before  {
-
   content: '';
 }
 
 .edit-icon:before  {
-
   content: '';
 }
 
 label  {
-
   cursor: pointer;
   input[type="checkbox"] {
-
     display: none;
     + span:before  {
-
       content: '';
       font-family: 'fontawesome';
       border: 1px solid $black;
@@ -112,7 +95,6 @@ label  {
   }
 
   input[type="checkbox"]:checked + span:before  {
-
     content: '';
     font-family: 'fontawesome';
     border: 1px solid $black;
@@ -124,10 +106,8 @@ label  {
   }
 
   input[type="radio"] {
-
     display: none;
     + span:before  {
-
       content: '';
       font-family: 'fontawesome';
       border: 1px solid $black;
@@ -140,7 +120,6 @@ label  {
   }
 
   input[type="radio"]:checked + span:before  {
-
     content: '';
     font-family: 'fontawesome';
     border: 1px solid $black;
@@ -153,7 +132,6 @@ label  {
 }
 
 .green-input  {
-
   input[type="text"],
   input[type="password"],
   input[type="email"],
@@ -171,28 +149,13 @@ label  {
       border-color: $blue;
     }
   }
-    span:before  {
+  span:before  {
 
-      color: $green;
-    }
-}
-
-.green-checkbox  {
-
-  + span:before  {
-
-    border-color: $green !important;
-    color: #fff !important;
+    color: $green;
   }
 }
 
-.green-checkbox:checked + span:before  {
-
-  color: $green !important;
-}
-
 .black-input  {
-
   input[type="text"],
   input[type="password"],
   input[type="email"],
@@ -206,32 +169,15 @@ label  {
   textarea[type="text"]  {
     border-color: $black;
     &:focus  {
-
       border-color: lighten($black, 10);
     }
   }
-    span:before  {
-
-      color: $black;
-    }
-}
-
-.black-checkbox  {
-
-  + span:before  {
-
-    border-color: $black !important;
-    color: #fff !important;
+  span:before  {
+    color: $black;
   }
 }
 
-.black-checkbox:checked + span:before  {
-
-  color: $black !important;
-}
-
 .orange-input  {
-
   input[type="text"],
   input[type="password"],
   input[type="email"],
@@ -245,32 +191,15 @@ label  {
   textarea[type="text"]  {
     border-color: $orange-btn;
     &:focus  {
-
       border-color: $yellow;
     }
   }
-    span:before  {
-
-      color: $orange-btn;
-    }
-}
-
-.orange-checkbox  {
-
-  + span:before  {
-
-    border-color: $orange-btn !important;
-    color: #fff !important;
+  span:before  {
+    color: $orange-btn;
   }
 }
 
-.orange-checkbox:checked + span:before  {
-
-  color: $orange-btn !important;
-}
-
 .purple-input  {
-
   input[type="text"],
   input[type="password"],
   input[type="email"],
@@ -288,22 +217,52 @@ label  {
       border-color: $dark-blue;
     }
   }
-    span:before  {
-
-      color: $purple-btn;
-    }
+  span:before  {
+    color: $purple-btn;
+  }
 }
 
-.purple-checkbox  {
+// green
+.green-checkbox  {
+  + span:before  {
+    border-color: $green !important;
+    color: #fff !important;
+  }
+}
+.green-checkbox:checked + span:before  {
+  color: $green !important;
+}
 
+// black
+.black-checkbox  {
+  + span:before  {
+    border-color: $black !important;
+    color: #fff !important;
+  }
+}
+.black-checkbox:checked + span:before  {
+  color: $black !important;
+}
+
+// orange
+.orange-checkbox  {
+  + span:before  {
+    border-color: $orange-btn !important;
+    color: #fff !important;
+  }
+}
+.orange-checkbox:checked + span:before  {
+  color: $orange-btn !important;
+}
+
+// purple
+.purple-checkbox  {
   + span:before  {
 
     border-color: $purple-btn !important;
     color: #fff !important;
   }
 }
-
 .purple-checkbox:checked + span:before  {
-
   color: $purple-btn !important;
 }

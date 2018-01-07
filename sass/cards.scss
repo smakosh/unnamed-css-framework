@@ -1,24 +1,16 @@
-@import "fonts";
-
 .card  {
-
   border-radius: 5px;
   box-shadow: 0px 1px 10px 0px rgba(5, 5, 5, 0.13);
   .card-header  {
-
     padding: 1.5rem 0 1.5rem 1.5rem;
     h4  {
-
-      font-family: 'roboto';
       font-weight: bold;
       margin: 0;
     }
   }
   .card-img  {
-
     overflow: hidden;
     img  {
-
       position: relative;
       left: 0;
       right: 0;
@@ -29,11 +21,8 @@
     }
   }
   .card-footer  {
-
     padding: 1.5rem 0 1.5rem 1.5rem;
     h4  {
-
-      font-family: 'roboto';
       font-weight: bold;
       margin: 0;
     }
@@ -41,7 +30,6 @@
 }
 
 .card-nofooter  {
-
   .card-img  {
     img  {
       border-bottom-left-radius: 5px;
@@ -51,7 +39,6 @@
 }
 
 .card-noheader  {
-
   .card-img  {
     img  {
       border-top-left-radius: 5px;
@@ -61,20 +48,9 @@
 }
 
 .card-hoverable  {
-
   transition: all .3s;
   &:hover  {
-
     box-shadow: 0px 11px 16px 0px rgba(5, 5, 5, 0.23);
     transition: all .3s;
-  }
-}
-
-.responsive-image  {
-
-  overflow: hidden;
-  img  {
-
-    width: 100%;
   }
 }
