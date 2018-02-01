@@ -89,7 +89,7 @@ label  {
       padding: .4rem .4rem;
       border-radius: 2px;
       transition: .2s;
-      color: #fff;
+      color: rgba(255, 255, 255, 0);
       font-size: 16px;
     }
   }
@@ -114,7 +114,7 @@ label  {
       padding: .3rem .4rem;
       border-radius: 100%;
       transition: .2s;
-      color: #fff;
+      color: rgba(255, 255, 255, 0);
       font-size: 14px;
     }
   }
@@ -226,7 +226,7 @@ label  {
 .green-checkbox  {
   + span:before  {
     border-color: $green !important;
-    color: #fff !important;
+    color: rgba(255, 255, 255, 0) !important;
   }
 }
 .green-checkbox:checked + span:before  {
@@ -237,7 +237,7 @@ label  {
 .black-checkbox  {
   + span:before  {
     border-color: $black !important;
-    color: #fff !important;
+    color: rgba(255, 255, 255, 0) !important;
   }
 }
 .black-checkbox:checked + span:before  {
@@ -248,7 +248,7 @@ label  {
 .orange-checkbox  {
   + span:before  {
     border-color: $orange-btn !important;
-    color: #fff !important;
+    color: rgba(255, 255, 255, 0) !important;
   }
 }
 .orange-checkbox:checked + span:before  {
@@ -260,7 +260,7 @@ label  {
   + span:before  {
 
     border-color: $purple-btn !important;
-    color: #fff !important;
+    color: rgba(255, 255, 255, 0) !important;
   }
 }
 .purple-checkbox:checked + span:before  {
