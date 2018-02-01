@@ -1,56 +1,36 @@
-# unnamed-css-framework
-A colorful css framework made by a human not an Ai
+# [Unnamed](http://unnamed.smakosh.com)
 
-Npm
+Unnamed is a simple colorful css framework that is recommended to be used while learning something or for prototyping, created by [Ismail Ghallou (Smakosh)](https://twitter.com/smakosh).
 
-`npm install unnamed`
+To get started, check out <http://unnamed.smakosh.com>!
 
-Non-minimized
 
-`<link rel="stylesheet" href="http://smakosh.com/unnamed.css"/>`
+## Table of contents
 
-CDN | Non-minimized
+* [Getting started & Documentation](#getting-started)
 
-`<link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.css"/>`
+* [Copyright and license](#copyright-and-license)
 
-Minimized
 
-`<link rel="stylesheet" href="http://smakosh.com/unnamed.min.css"/>`
+## Getting started & Documentation
 
-CDN | minimized
+* Clone the getting started repo if you want to edit all the sass elements: `git clone https://github.com/smakosh/Unnamed-getting-started.git`.
+* Install with [npm](https://www.npmjs.com): `npm install unnamed`.
 
-`<link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.min.css"/>`
+Read the [Documentation](http://unnamed.smakosh.com) for more information about the framework.
 
-Accelerated by <a href="https://www.keycdn.com/?ref=unnamed-repo">KeyCDN</a>
+### What's included
 
-# Documentation
+Within the download you'll find the following directories and files:
 
-https://unnamed.smakosh.com
+```
+unnamed/
+├── css/
+│   ├── unnamed.css
+│   ├── unnamed.min.css
+│
+```
 
-# Development
+## Copyright and license
 
-# For web apps
-
-Npm
-
-`npm install unnamed`
-
-Usage with webpack: `import 'unnamed'`
-
-# For landing pages
-
-<h3>Clone</h3>
-
-`git clone https://github.com/smakosh/Unnamed-getting-started.git`
-
-`cd Unnamed-getting-started && yarn install && bower install`
-
-`gulp serve`
-
-<h3>Build</h3>
-
-`gulp build`
-
-# License
-
-MIT © Unnamed
+Code and documentation Copyright (c) 2017 Ismail Ghallou Code released under [the MIT license](https://github.com/smakosh/unnamed-css-framework/blob/master/LICENSE).

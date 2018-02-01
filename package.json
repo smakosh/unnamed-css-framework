@@ -1,0 +1,28 @@
+{
+  "name": "unnamed",
+  "version": "1.2.0",
+  "description": "A simple colorful css framework",
+  "main": "./dist/css/unnamed.css",
+  "style": "dist/css/unnamed.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smakosh/unnamed-css-framework.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "unnamed",
+    "colorful",
+    "responsive",
+    "front-end"
+  ],
+  "author": "Ismail Ghallou (Smakosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smakosh/unnamed-css-framework/issues"
+  },
+  "homepage": "https://github.com/smakosh/unnamed-css-framework#readme"
+}
