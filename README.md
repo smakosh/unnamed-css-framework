@@ -1,5 +1,6 @@
-# unnamed-css-framework
-A colorful css framework made by a human not an Ai
+# [Unnamed](http://unnamed.smakosh.com)
+
+Unnamed is a simple colorful css framework that is recommended to be used while learning something and you're too lazy to style your components or for building prototypes, created by [Ismail Ghallou (Smakosh)](https://twitter.com/smakosh).
 
 Npm
 
@@ -29,27 +30,27 @@ https://unnamed.smakosh.com
 
 # Development
 
-# For web apps
+## For web apps
 
 Npm
 
-`npm install unnamed`
+`$ npm install unnamed`
 
 Usage with webpack: `import 'unnamed'`
 
-# For landing pages
+## For landing pages
 
 <h3>Clone</h3>
 
-`git clone https://github.com/smakosh/Unnamed-getting-started.git`
+`$ git clone https://github.com/smakosh/Unnamed-getting-started.git`
 
-`cd Unnamed-getting-started && yarn install && bower install`
+ `$ cd Unnamed-getting-started && yarn install && bower install`
 
-`gulp serve`
+ `$ gulp serve`
 
 <h3>Build</h3>
 
-`gulp build`
+`$ gulp build`
 
 # License
 
