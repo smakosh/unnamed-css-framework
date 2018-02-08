@@ -4,53 +4,55 @@ Unnamed is a simple colorful css framework that is recommended to be used while 
 
 Npm
 
-`npm install unnamed`
+	npm install unnamed
 
-Non-minimized
+Non-minified
 
-`<link rel="stylesheet" href="http://smakosh.com/unnamed.css"/>`
+	<link rel="stylesheet" href="http://smakosh.com/unnamed.css"/>
 
-CDN | Non-minimized
+CDN | Non-minified
 
-`<link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.css"/>`
+	<link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.css"/>
 
-Minimized
+minified
 
-`<link rel="stylesheet" href="http://smakosh.com/unnamed.min.css"/>`
+	<link rel="stylesheet" href="http://smakosh.com/unnamed.min.css"/>
 
-CDN | minimized
+CDN | minified
 
-`<link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.min.css"/>`
+	<link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.min.css"/>
 
-Accelerated by <a href="https://www.keycdn.com/?ref=unnamed-repo">KeyCDN</a>
+Accelerated by <a href="https://www.keycdn.com/?a=39455">KeyCDN</a>
 
-# Documentation
+## Documentation
 
 https://unnamed.smakosh.com
 
-# Development
+## Development
 
-## For web apps
+### For web apps
 
 Npm
 
-`$ npm install unnamed`
+	$ npm install unnamed
 
-Usage with webpack: `import 'unnamed'`
+Usage with webpack:
 
-## For landing pages
+	import 'unnamed'
 
-<h3>Clone</h3>
+### For landing pages
 
-`$ git clone https://github.com/smakosh/Unnamed-getting-started.git`
+#### Clone & start dev server
 
- `$ cd Unnamed-getting-started && yarn install && bower install`
+	$ git clone https://github.com/smakosh/Unnamed-getting-started.git
 
- `$ gulp serve`
+	$ cd Unnamed-getting-started && yarn install && bower install
 
-<h3>Build</h3>
+	$ gulp serve
 
-`$ gulp build`
+#### To Build
+
+	$ gulp build
 
 # License
 
