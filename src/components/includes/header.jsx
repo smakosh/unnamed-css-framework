@@ -7,7 +7,7 @@ const unnamed = 'https://twitter.com/unnamedcss?ref_src=twsrc%5Etfw'
 const paypal = 'https://www.paypal.me/ismailghallou'
 
 const Header = () => (
-    <div className="container header" id="top">
+    <div className="container header">
         <div className="brand">
             <Brand />
             <Github />

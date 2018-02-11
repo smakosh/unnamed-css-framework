@@ -6204,9 +6204,9 @@ universalify@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.1.tgz#fa71badd4437af4c148841e3b3b165f9e9e590b7"
 
-unnamed@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/unnamed/-/unnamed-1.2.0.tgz#20e5e606c365094618034315a05a622ba1d7fe2e"
+unnamed@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/unnamed/-/unnamed-1.2.2.tgz#fe7dabd5087dc50cefa1c65a8d833af274ed16da"
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"

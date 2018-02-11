@@ -1,5 +1,4 @@
 import React from 'react'
-const Download = 'http://smakosh.com/unnamed-css.zip'
 
 const Install = () => (
     <div className="container instalation" id="installation">
@@ -7,26 +6,13 @@ const Install = () => (
         <div className="divider"></div>
         
         <h4>NPM</h4>
-        <pre>npm install unnamed</pre>
-        
-        <h4>For Including links (old way):</h4>
-        <pre>&lt;link rel="stylesheet" href="http://smakosh.com/unnamed.css"&gt;</pre>
-        
-        <h4>Minimized</h4>
-        <pre>&lt;link rel="stylesheet" href="http://smakosh.com/unnamed.min.css"&gt;</pre>
-        
+        <pre>npm install --save unnamed</pre>
+
+        <h4>Yarn</h4>
+        <pre>yarn add unnamed</pre>
+
         <h4>CDN</h4>
-        <pre>&lt;link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.css"&gt;</pre>
-        
-        <h4>Minimized</h4>
-        <pre>&lt;link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.min.css"&gt;</pre>
-        
-        <h4 className="download">Or download both:</h4>
-        <a 
-            href={Download} 
-            className="btn btn-rounded btn-outlined purple-btn push-up" 
-            download
-        >Download</a>
+        <pre>&lt;link rel="stylesheet" href="https://unpkg.com/unnamed"&gt;</pre>
         
         <h4>Or use this starter repository:</h4>
         <pre>git clone https://github.com/smakosh/Unnamed-getting-started.git</pre>
