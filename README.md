@@ -1,28 +1,18 @@
-# [Unnamed](http://unnamed.smakosh.com)
+# [Unnamed](https://unnamed.smakosh.com)
 
 Unnamed is a simple colorful css framework that is recommended to be used while learning something and you're too lazy to style your components or for building prototypes, created by [Ismail Ghallou (Smakosh)](https://twitter.com/smakosh).
 
 Npm
 
-	npm install unnamed
+	npm install --save unnamed
 
-Non-minified
+Yarn
 
-	<link rel="stylesheet" href="http://smakosh.com/unnamed.css"/>
+	yarn add unnamed
 
-CDN | Non-minified
+CDN 
 
-	<link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.css"/>
-
-minified
-
-	<link rel="stylesheet" href="http://smakosh.com/unnamed.min.css"/>
-
-CDN | minified
-
-	<link rel="stylesheet" href="https://unnamedcss-9a1f.kxcdn.com/unnamed.min.css"/>
-
-Accelerated by <a href="https://www.keycdn.com/?a=39455">KeyCDN</a>
+	<link rel="stylesheet" href="https://unpkg.com/unnamed" />
 
 ## Documentation
 
@@ -34,7 +24,11 @@ https://unnamed.smakosh.com
 
 Npm
 
-	$ npm install unnamed
+	$ npm install --save unnamed
+
+Yarn
+
+	$ yarn add unnamed
 
 Usage with webpack:
 
@@ -53,6 +47,8 @@ Usage with webpack:
 #### To Build
 
 	$ gulp build
+
+#### Or include CDN
 
 # License
 
