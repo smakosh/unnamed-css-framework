@@ -1,5 +1,7 @@
 # [Unnamed](https://unnamed.smakosh.com)
 
+![unnamed](logo.svg)
+
 Unnamed is a simple colorful css framework that is recommended to be used while learning something and you're too lazy to style your components or for building prototypes, created by [Ismail Ghallou (Smakosh)](https://twitter.com/smakosh).
 
 [![Package Version](https://img.shields.io/npm/v/unnamed.svg?style=flat-square)](https://www.npmjs.com/package/unnamed)
