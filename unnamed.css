@@ -908,6 +908,10 @@ button:disabled:hover {
   height: 100%;
 }
 
+select, input, textarea  {
+  -webkit-appearance: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   padding: 0;
