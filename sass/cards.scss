@@ -1,15 +1,19 @@
 .card  {
   border-radius: 5px;
   box-shadow: 0px 1px 10px 0px rgba(5, 5, 5, 0.13);
+
   .card-header  {
-    padding: 1.5rem 0 1.5rem 1.5rem;
+    padding: 1.5rem;
+
     h4  {
       font-weight: bold;
       margin: 0;
     }
   }
+
   .card-img  {
     overflow: hidden;
+
     img  {
       position: relative;
       left: 0;
@@ -20,8 +24,10 @@
       display: block;
     }
   }
+
   .card-footer  {
     padding: 1.5rem 0 1.5rem 1.5rem;
+
     h4  {
       font-weight: bold;
       margin: 0;
@@ -29,8 +35,9 @@
   }
 }
 
-.card-nofooter  {
+.card-no-footer  {
   .card-img  {
+
     img  {
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
@@ -38,7 +45,7 @@
   }
 }
 
-.card-noheader  {
+.card-no-header  {
   .card-img  {
     img  {
       border-top-left-radius: 5px;
@@ -47,7 +54,7 @@
   }
 }
 
-.card-hoverable  {
+.card-hover  {
   transition: all .3s;
   &:hover  {
     box-shadow: 0px 11px 16px 0px rgba(5, 5, 5, 0.23);

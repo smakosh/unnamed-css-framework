@@ -1,7 +1,8 @@
 @import "colors";
 
 .btn  {
-  padding: 1rem 3rem;
+  width: 140px;
+  height: 45px;
   color: #fff;
   cursor: pointer;
 }
@@ -18,7 +19,7 @@
   border-width: 3px;
   border-style: solid;
   transition: all 0.5s;
-  padding: 0.8rem 3rem;
+
   &:hover {
     color: #fff;
     transition: all 0.5s;
@@ -32,6 +33,7 @@
 .black-btn  {
   border-color: $black;
   color: $black;
+
   &:hover {
     background-color: $black;
   }
@@ -40,6 +42,7 @@
 .green-btn  {
   border-color: $green;
   color: $green;
+
   &:hover {
     background-color: $green;
   }
@@ -48,6 +51,7 @@
 .orange-btn  {
   border-color: $orange-btn;
   color: $orange-btn;
+
   &:hover {
     background-color: $orange-btn;
   }
@@ -56,6 +60,7 @@
 .purple-btn  {
   border-color: $purple-btn;
   color: $purple-btn;
+
   &:hover {
     background-color: $purple-btn;
   }
@@ -67,9 +72,9 @@ button:disabled  {
   background: $disabled;
   color: #fff;
   border: unset;
-}
 
-button:disabled:hover  {
-  box-shadow: unset;
-  background: $disabled;
+  &:hover  {
+    box-shadow: unset;
+    background: $disabled;
+  }
 }

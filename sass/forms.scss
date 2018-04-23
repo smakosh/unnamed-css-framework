@@ -20,11 +20,11 @@ textarea[type=text]  {
   margin-bottom: 1rem;
   box-sizing: border-box;
   transition: all .2s ease;
-  text-align: left;
   border-width: 1px;
   border-color: $black;
   border-style: solid;
   border-radius: 2px;
+
   &:focus  {
     border-color: $black;
     transition: all .2s ease;
@@ -33,7 +33,6 @@ textarea[type=text]  {
 
 input, textarea  {
   padding: .9rem 1rem .9rem 2rem;
-  -webkit-appearance:none;
 }
 
 select  {
@@ -43,9 +42,8 @@ select  {
 }
 
 textarea  {
-
   resize: vertical;
-  min-height: 8rem;
+  min-height: 12rem;
   margin: 0;
 }
 
@@ -80,8 +78,10 @@ textarea  {
 
 label  {
   cursor: pointer;
+
   input[type="checkbox"] {
     display: none;
+
     + span:before  {
       content: '';
       font-family: 'fontawesome';
@@ -107,6 +107,7 @@ label  {
 
   input[type="radio"] {
     display: none;
+
     + span:before  {
       content: '';
       font-family: 'fontawesome';
@@ -144,13 +145,13 @@ label  {
   textarea,
   textarea[type="text"]  {
     border-color: $green;
-    &:focus  {
 
+    &:focus  {
       border-color: $blue;
     }
   }
-  span:before  {
 
+  span:before  {
     color: $green;
   }
 }
@@ -168,10 +169,12 @@ label  {
   textarea,
   textarea[type="text"]  {
     border-color: $black;
+
     &:focus  {
       border-color: lighten($black, 10);
     }
   }
+
   span:before  {
     color: $black;
   }
@@ -190,10 +193,12 @@ label  {
   textarea,
   textarea[type="text"]  {
     border-color: $orange-btn;
+
     &:focus  {
       border-color: $yellow;
     }
   }
+
   span:before  {
     color: $orange-btn;
   }
@@ -212,50 +217,50 @@ label  {
   textarea,
   textarea[type="text"]  {
     border-color: $purple-btn;
-    &:focus  {
 
+    &:focus  {
       border-color: $dark-blue;
     }
   }
+
   span:before  {
     color: $purple-btn;
   }
 }
 
-// green
 .green-checkbox  {
   + span:before  {
     border-color: $green !important;
     color: rgba(255, 255, 255, 0) !important;
   }
 }
+
 .green-checkbox:checked + span:before  {
   color: $green !important;
 }
 
-// black
 .black-checkbox  {
   + span:before  {
     border-color: $black !important;
     color: rgba(255, 255, 255, 0) !important;
   }
 }
+
 .black-checkbox:checked + span:before  {
   color: $black !important;
 }
 
-// orange
 .orange-checkbox  {
   + span:before  {
     border-color: $orange-btn !important;
     color: rgba(255, 255, 255, 0) !important;
   }
 }
+
 .orange-checkbox:checked + span:before  {
   color: $orange-btn !important;
 }
 
-// purple
 .purple-checkbox  {
   + span:before  {
 
@@ -263,6 +268,7 @@ label  {
     color: rgba(255, 255, 255, 0) !important;
   }
 }
+
 .purple-checkbox:checked + span:before  {
   color: $purple-btn !important;
 }

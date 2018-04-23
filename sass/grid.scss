@@ -1,19 +1,4 @@
-$mobile-up: 601px !default;
-$tablet-up: 993px !default;
-$desk-up: 1201px !default;
-$mobile: 600px !default;
-$tablet: 992px !default;
-$desk: 1200px !default;
-
-$medium-and-up: "only screen and (min-width : #{$mobile-up})" !default;
-$large-and-up: "only screen and (min-width : #{$tablet-up})" !default;
-$extra-large-and-up: "only screen and (min-width : #{$desk-up})" !default;
-$small-and-down: "only screen and (max-width : #{$mobile})" !default;
-$medium-and-down: "only screen and (max-width : #{$tablet})" !default;
-$medium-only: "only screen and (min-width : #{$mobile-up}) and (max-width : #{$tablet})" !default;
-
-$number-columns: 12 !default;
-$gutter-width: 1.5rem !default;
+@import "variables";
 
 .container-full {
   margin: 0 auto;
@@ -24,23 +9,17 @@ $gutter-width: 1.5rem !default;
   margin: 0 auto;
   max-width: 1280px;
   width: 90%;
-}
 
-.container  {
+  @media #{$medium-and-up} {
+      width: 85%;
+  }
+  @media #{$large-and-up} {
+      width: 70%;
+  }
+
   .row {
     margin-left: (-1 * $gutter-width / 2);
     margin-right: (-1 * $gutter-width / 2);
-  }
-}
-
-@media #{$medium-and-up} {
-  .container {
-    width: 85%;
-  }
-}
-@media #{$large-and-up} {
-  .container {
-    width: 70%;
   }
 }
 
@@ -49,6 +28,7 @@ $gutter-width: 1.5rem !default;
   left: auto;
   right: auto;
 }
+
 @mixin grid-classes($size, $i, $perc) {
   &.offset-#{$size}#{$i} {
     margin-left: $perc;
@@ -77,11 +57,13 @@ $gutter-width: 1.5rem !default;
   margin-bottom: .5rem;
   margin-left: auto;
   margin-right: auto;
+
   &:after {
     content: "";
     display: table;
     clear: both;
   }
+
   .column {
     box-sizing: border-box;
     padding: 0 $gutter-width / 2;
@@ -91,48 +73,56 @@ $gutter-width: 1.5rem !default;
     $i: 1;
     @while $i <= $number-columns {
       $perc: unquote((100 / ($number-columns / $i)) + "%");
+
       &.small-#{$i} {
         width: $perc;
         @include reset-offset;
       }
+
       $i: $i + 1;
     }
 
     @media #{$medium-and-up} {
-
       $i: 1;
+
       @while $i <= $number-columns {
         $perc: unquote((100 / ($number-columns / $i)) + "%");
+
         &.medium-#{$i} {
           width: $perc;
           @include reset-offset;
         }
+
         $i: $i + 1;
       }
     }
 
     @media #{$large-and-up} {
-
       $i: 1;
+
       @while $i <= $number-columns {
         $perc: unquote((100 / ($number-columns / $i)) + "%");
+
         &.large-#{$i} {
           width: $perc;
           @include reset-offset;
         }
+
         $i: $i + 1;
       }
     }
 
     @media #{$extra-large-and-up} {
-
       $i: 1;
+
       @while $i <= $number-columns {
         $perc: unquote((100 / ($number-columns / $i)) + "%");
+
         &.xlarge-#{$i} {
           width: $perc;
           @include reset-offset;
         }
+
         $i: $i + 1;
       }
     }

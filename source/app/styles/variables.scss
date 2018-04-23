@@ -1,0 +1,16 @@
+$mobile-up: 601px !default;
+$tablet-up: 993px !default;
+$desk-up: 1201px !default;
+$mobile: 600px !default;
+$tablet: 992px !default;
+$desk: 1200px !default;
+
+$medium-and-up: "only screen and (min-width : #{$mobile-up})" !default;
+$large-and-up: "only screen and (min-width : #{$tablet-up})" !default;
+$extra-large-and-up: "only screen and (min-width : #{$desk-up})" !default;
+$small-and-down: "only screen and (max-width : #{$mobile})" !default;
+$medium-and-down: "only screen and (max-width : #{$tablet})" !default;
+$medium-only: "only screen and (min-width : #{$mobile-up}) and (max-width : #{$tablet})" !default;
+
+$number-columns: 12 !default;
+$gutter-width: 1.5rem !default;
