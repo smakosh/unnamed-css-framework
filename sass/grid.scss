@@ -1,8 +1,27 @@
 @import "variables";
 
-.container-full {
+.full-container {
   margin: 0 auto;
   width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.small-container {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 90%;
+
+  @media #{$medium-and-up} {
+      width: 90%;
+  }
+  @media #{$large-and-up} {
+      width: 100%;
+  }
 }
 
 .container {
@@ -16,11 +35,11 @@
   @media #{$large-and-up} {
       width: 70%;
   }
+}
 
-  .row {
-    margin-left: (-1 * $gutter-width / 2);
-    margin-right: (-1 * $gutter-width / 2);
-  }
+.row {
+  margin-left: (-1 * $gutter-width / 2);
+  margin-right: (-1 * $gutter-width / 2);
 }
 
 @mixin reset-offset {

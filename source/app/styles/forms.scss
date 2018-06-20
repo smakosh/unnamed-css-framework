@@ -76,6 +76,10 @@ textarea  {
   content: '';
 }
 
+.caret-icon:before {
+  content: '▼';
+}
+
 label  {
   cursor: pointer;
 

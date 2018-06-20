@@ -1,39 +1,19 @@
 @charset "UTF-8";
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i");
 .gradient-green {
     background: #1fdeb3;
-    background: linear-gradient(180deg, #1fdeb3, #12c3d2);
-    box-shadow: 0 4px 7px 0 rgba(18, 194, 211, .48);
-    transition: all .2s
-}
-
-.gradient-green:hover {
-    box-shadow: 0 7px 20px 0 rgba(18, 194, 211, .5);
-    transition: all .2s
+    background: linear-gradient(80deg, #1fdeb3, #12c3d2)
 }
 
 .gradient-orange {
     background: #ffe53b;
-    background: linear-gradient(180deg, #ffe53b, #ff2525);
-    box-shadow: 0 4px 7px 0 rgba(255, 50, 39, .48);
-    transition: all .2s
-}
-
-.gradient-orange:hover {
-    box-shadow: 0 7px 20px 0 rgba(255, 50, 39, .5);
-    transition: all .2s
+    background: linear-gradient(80deg, #ffe53b, #ff2525)
 }
 
 .gradient-purple {
     background: #21d4fd;
-    background: linear-gradient(180deg, #21d4fd, #b721ff);
-    box-shadow: 0 4px 7px 0 rgba(170, 49, 255, .48);
-    transition: all .2s
-}
-
-.gradient-purple:hover {
-    box-shadow: 0 7px 13px 0 rgba(170, 49, 255, .5);
-    transition: all .2s
+    background: linear-gradient(80deg, #21d4fd, #b721ff)
 }
 
 a {
@@ -63,9 +43,39 @@ button {
     user-select: none
 }
 
-.container-full {
+.full-container {
     margin: 0 auto;
     width: 100%
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.small-container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 90%
+}
+
+@media only screen and (min-width:601px) {
+    .small-container {
+        width: 90%
+    }
+}
+
+@media only screen and (min-width:993px) {
+    .small-container {
+        width: 100%
+    }
 }
 
 .container {
@@ -86,7 +96,7 @@ button {
     }
 }
 
-.container .row {
+.row {
     margin-left: -.75rem;
     margin-right: -.75rem
 }
@@ -528,6 +538,10 @@ textarea {
     content: ""
 }
 
+.caret-icon:before {
+    content: "▼"
+}
+
 label {
     cursor: pointer
 }
@@ -802,7 +816,9 @@ label input[type=radio]:checked+span:before {
     width: 140px;
     height: 45px;
     color: #fff;
-    cursor: pointer
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700
 }
 
 .btn-primary {
@@ -902,6 +918,7 @@ button:disabled:hover {
 }
 
 body {
+    font-family: Roboto, sans-serif;
     padding: 0;
     margin: 0
 }
