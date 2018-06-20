@@ -1,0 +1,35 @@
+.nav {
+	padding: 1.5rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.flexed-logo {
+		display: flex;
+		align-items: center;
+
+		.ml2 {
+			margin-left: 0.5rem;
+		}
+	}
+
+	a {
+		color: #212121;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+	.links {
+		a {
+			margin-right: 1rem;
+
+			&:last-child {
+				margin-right: unset;
+			}
+		}
+
+		@media screen and (max-width: 960px) {
+			display: none;
+		}
+	}
+}

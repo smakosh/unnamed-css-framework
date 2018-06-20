@@ -1,0 +1,14 @@
+.docs-content {
+	margin-left: 300px;
+	padding-left: 2rem;
+	padding-top: 4.5rem;
+
+	p {
+		line-height: 1.5rem;
+	}
+
+	@media screen and (max-width: 960px) {
+		margin-left: 0;
+		padding-left: 0;
+	}
+}

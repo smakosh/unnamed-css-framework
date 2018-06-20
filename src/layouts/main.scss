@@ -1,0 +1,58 @@
+.title {
+    margin: 0 0 10px 0;
+    color: #212121;
+}
+.meh {
+    margin-bottom: 25px;
+}
+.divider {
+    height: 10px;
+    width: 30px;
+    background: #212121;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+
+.black-overlay.active {
+	@media screen and (max-width: 960px) {
+		z-index: 1;
+		display: block;
+		position: fixed;
+		background: rgba(0, 0, 0, 0.7);
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.push-down {
+    margin: 2rem 0;
+
+    label {
+        margin: 0 1rem;
+    }
+}
+
+.container .mb2 {
+    margin-bottom: 2rem;
+}
+
+button {
+    margin-right: 1rem;
+
+    &:last-child {
+        margin-right: unset;
+    }
+}
+
+.bg-custom {
+    background: #d8d8d8;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.columns {
+    background-color: #1fdeb3;
+    padding: 1rem 1px;
+    text-align: center;
+    color: #fff;
+}

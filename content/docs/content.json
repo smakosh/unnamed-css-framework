@@ -1,0 +1,38 @@
+{
+	"id": "content",
+	"chapters": [
+		{
+			"title": "Getting started",
+			"entry": "./getting-started.md"
+		},
+		{
+			"title": "Containers",
+			"entry": "./containers.md"
+		},
+		{
+			"title": "Buttons",
+			"entry": "./buttons.md"
+		},
+		{
+			"title": "Forms",
+			"entry": "./forms.md"
+		},
+		{
+			"title": "Cards",
+			"entry": "./cards.md"
+		},
+		{
+			"title": "Media",
+			"entry": "./media.md"
+		},
+		{
+			"title": "Grid",
+			"entry": "./grid.md"
+		},
+		{
+			"title": "Utilities",
+			"entry": "./utilities.md"
+		}
+	]
+  }
+  

@@ -1,0 +1,3241 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "443e42afa958da2144f73e09e1f2daf0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e2eb5edd010eb890b8f6b14ed6e7004f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "89a3a94ee80fe51f4fc6454f61bb7e9f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8d7160b0b28ad8db93abaabf0728f55b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "569e6ac5e2dc0232073e765ead2207fd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2065809b9abecbea9e2ff5ff6023ace3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4949ac0284d9314813ee8413fcbdd9e1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Provides drop-in support for server rendering data added with react-helmet",
+        "version": "2.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a0fc29895167cf2722b908342079175e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.23",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.23",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.10"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "21a142c61221b71bb1dfcbe5e24e68d0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-next": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-react-next",
+      "id": "Plugin gatsby-plugin-react-next",
+      "name": "gatsby-plugin-react-next",
+      "version": "1.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-react-next",
+      "packageJson": {
+        "name": "gatsby-plugin-react-next",
+        "description": "Use React 16 with your Gatsby v1 site",
+        "version": "1.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.0.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a5dec5769ede3af23f3db3e5217b5976",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-canonical-urls": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-canonical-urls",
+      "id": "Plugin gatsby-plugin-canonical-urls",
+      "name": "gatsby-plugin-canonical-urls",
+      "version": "1.0.16",
+      "pluginOptions": {
+        "plugins": [],
+        "siteUrl": "https://unnamed.smakosh.com"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-canonical-urls",
+      "packageJson": {
+        "name": "gatsby-plugin-canonical-urls",
+        "description": "Add canonical links (rel=canonical) to HTML pages Gatsby generates",
+        "version": "1.0.16",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4cbb7cb05cfb3dc23f2ba0593a81ff4d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.19",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a23c36839bdd4b5f39d9f76580561665",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.22",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.22",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^3.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4805435a1be1bb6cb56a06d136286466",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.41",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.41",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "85ed386d2ec9917f47d54be171000dc0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.43",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "2.0.3",
+            "pluginOptions": {
+              "plugins": [],
+              "classPrefix": "language-",
+              "inlineCodeMarker": null,
+              "aliases": {}
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.67",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 1000,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.43",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d4f5103df15fbd5f806f45a6b74801e0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "2.0.3",
+      "pluginOptions": {
+        "plugins": [],
+        "classPrefix": "language-",
+        "inlineCodeMarker": null,
+        "aliases": {}
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "2.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.3"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.13.0"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "prismjs",
+            "version": "^1.13.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fedf8fa0a2bce8cbbd42402b4caf1ced",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.67",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 1000,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.67",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "af344a5f55a7735b48012386a6852025",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.27",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "posts",
+        "path": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a6afbef8f5b08b703b53fd0215bc926a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.24",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-106122837-1"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f998e6bb7c72d3282566c78dfdd09f51",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-nprogress": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-nprogress",
+      "id": "Plugin gatsby-plugin-nprogress",
+      "name": "gatsby-plugin-nprogress",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "color": "#09b4e0",
+        "showSpinner": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-nprogress",
+      "packageJson": {
+        "name": "gatsby-plugin-nprogress",
+        "description": "Shows page loading indicator when loading page resources is delayed",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews<mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "nprogress",
+            "version": "^0.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2c89f8d06a675ddc12ea587c479bf149",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-json": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-transformer-json",
+      "id": "Plugin gatsby-transformer-json",
+      "name": "gatsby-transformer-json",
+      "version": "1.0.19",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-transformer-json",
+      "packageJson": {
+        "name": "gatsby-transformer-json",
+        "description": "Gatsby transformer plugin for JSON files",
+        "version": "1.0.19",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "json"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b3f86f6b8f4421a8659688851791ef2f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "1.0.15",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Unnamed",
+        "short_name": "Unnamed",
+        "start_url": "/",
+        "background_color": "#09b4e0",
+        "theme_color": "#09b4e0",
+        "display": "minimal-ui",
+        "icons": [
+          {
+            "src": "/favicon/logo-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "/favicon/logo-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.json to make sites progressive web apps",
+        "version": "1.0.15",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "manifest.json",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ee8aa8415dd7c52e34c1c172995749f7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.15",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f5cf64439413657ea406263861f7ec89",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/smakosh/Desktop/openSource/unnamed-css-framework",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "e2877f6c54e9a50e4057e464a641a791",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages",
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework",
+      "packageJson": {
+        "name": "unnamed",
+        "description": "A colorful css framework",
+        "version": "2.1.3",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Ismail Ghallou <ismai23l@hotmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "classnames",
+            "version": "^2.2.6"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.158"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.41"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.34"
+          },
+          {
+            "name": "gatsby-plugin-canonical-urls",
+            "version": "^1.0.14"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^1.0.19"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.20"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^1.0.15"
+          },
+          {
+            "name": "gatsby-plugin-nprogress",
+            "version": "^1.0.13"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.15"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.3"
+          },
+          {
+            "name": "gatsby-plugin-react-next",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.16"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.39"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.67"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^2.0.3"
+          },
+          {
+            "name": "gatsby-remark-responsive-image",
+            "version": "^1.0.0-alpha13-alpha.435e0178"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.18"
+          },
+          {
+            "name": "gatsby-transformer-json",
+            "version": "^1.0.19"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.43"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.22"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "lodash-webpack-plugin",
+            "version": "^0.11.5"
+          },
+          {
+            "name": "react-copy-to-clipboard",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-syntax-highlighter",
+            "version": "^7.0.2"
+          },
+          {
+            "name": "react-twitter-widgets",
+            "version": "^1.7.1"
+          },
+          {
+            "name": "recompose",
+            "version": "^0.27.1"
+          },
+          {
+            "name": "unnamed",
+            "version": "^1.2.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.11.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a236bd3b00a4426ab5e9079db51f2af2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
+      "buildTime": "2018-06-20T03:37:16.726Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "da26db42177700bf829dab2d8aea4d21",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/ absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6cad831941fb4f1a78d1a9428352f22d",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-06-17T18:16:20.059Z",
+      "accessTime": "2018-06-20T03:37:20.867Z",
+      "changeTime": "2018-06-20T03:24:00.007Z",
+      "birthTime": "2018-06-16T18:57:30.543Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework",
+      "base": "content",
+      "ext": "",
+      "name": "content",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820804,
+      "blocks": 0,
+      "atimeMs": 1529465840867.2793,
+      "mtimeMs": 1529259380059.1072,
+      "ctimeMs": 1529465040006.6924,
+      "birthtimeMs": 1529175450543.151,
+      "atime": "2018-06-20T03:37:20.867Z",
+      "mtime": "2018-06-17T18:16:20.059Z",
+      "ctime": "2018-06-20T03:24:00.007Z",
+      "birthtime": "2018-06-16T18:57:30.543Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b92ceb8c7d6540ebcb588993e7a7674f",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "relativePath": "docs",
+      "extension": "",
+      "size": 480,
+      "prettySize": "480 B",
+      "modifiedTime": "2018-06-17T18:17:51.292Z",
+      "accessTime": "2018-06-20T03:37:20.870Z",
+      "changeTime": "2018-06-20T03:24:00.006Z",
+      "birthTime": "2018-06-16T18:58:36.607Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content",
+      "base": "docs",
+      "ext": "",
+      "name": "docs",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 15,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820887,
+      "blocks": 0,
+      "atimeMs": 1529465840869.5093,
+      "mtimeMs": 1529259471292.1155,
+      "ctimeMs": 1529465040006.228,
+      "birthtimeMs": 1529175516607.4512,
+      "atime": "2018-06-20T03:37:20.870Z",
+      "mtime": "2018-06-17T18:17:51.292Z",
+      "ctime": "2018-06-20T03:24:00.006Z",
+      "birthtime": "2018-06-16T18:58:36.607Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "337dc963802dfdb6087f29e6ea8bc20c",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts",
+      "relativePath": "posts",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-06-16T19:47:15.243Z",
+      "accessTime": "2018-06-20T03:37:20.869Z",
+      "changeTime": "2018-06-20T03:23:59.977Z",
+      "birthTime": "2018-06-16T19:47:10.516Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820884,
+      "blocks": 0,
+      "atimeMs": 1529465840869.4866,
+      "mtimeMs": 1529178435242.8003,
+      "ctimeMs": 1529465039977.3833,
+      "birthtimeMs": 1529178430516.4443,
+      "atime": "2018-06-20T03:37:20.869Z",
+      "mtime": "2018-06-16T19:47:15.243Z",
+      "ctime": "2018-06-20T03:23:59.977Z",
+      "birthtime": "2018-06-16T19:47:10.516Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts/test.md absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts/test.md absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts/test.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "37ba9612bd741f18996eb9b9180d814e",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts/test.md",
+      "relativePath": "posts/test.md",
+      "extension": "md",
+      "size": 171,
+      "prettySize": "171 B",
+      "modifiedTime": "2018-06-16T19:47:28.728Z",
+      "accessTime": "2018-06-20T03:26:36.876Z",
+      "changeTime": "2018-06-20T03:23:59.977Z",
+      "birthTime": "2018-06-16T19:47:15.243Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts",
+      "base": "test.md",
+      "ext": ".md",
+      "name": "test",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820885,
+      "blocks": 8,
+      "atimeMs": 1529465196876.3313,
+      "mtimeMs": 1529178448728.4531,
+      "ctimeMs": 1529465039977.25,
+      "birthtimeMs": 1529178435242.7917,
+      "atime": "2018-06-20T03:26:36.876Z",
+      "mtime": "2018-06-16T19:47:28.728Z",
+      "ctime": "2018-06-20T03:23:59.977Z",
+      "birthtime": "2018-06-16T19:47:15.243Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/.DS_Store absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "815fd8974ea3307627ebaaae160820e7",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-06-17T18:16:20.060Z",
+      "accessTime": "2018-06-20T02:18:20.864Z",
+      "changeTime": "2018-06-20T03:23:59.978Z",
+      "birthTime": "2018-06-17T18:16:20.059Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820886,
+      "blocks": 16,
+      "atimeMs": 1529461100863.504,
+      "mtimeMs": 1529259380060.395,
+      "ctimeMs": 1529465039978.476,
+      "birthtimeMs": 1529259380059.085,
+      "atime": "2018-06-20T02:18:20.864Z",
+      "mtime": "2018-06-17T18:16:20.060Z",
+      "ctime": "2018-06-20T03:23:59.978Z",
+      "birthtime": "2018-06-17T18:16:20.059Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/.DS_Store absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a2f860108668e6b78f15076a64bb00f4",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/.DS_Store",
+      "relativePath": "docs/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-06-17T18:17:56.304Z",
+      "accessTime": "2018-06-20T03:23:46.746Z",
+      "changeTime": "2018-06-20T03:23:59.984Z",
+      "birthTime": "2018-06-17T18:16:25.086Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820890,
+      "blocks": 16,
+      "atimeMs": 1529465026745.5771,
+      "mtimeMs": 1529259476303.5718,
+      "ctimeMs": 1529465039984.4204,
+      "birthtimeMs": 1529259385085.964,
+      "atime": "2018-06-20T03:23:46.746Z",
+      "mtime": "2018-06-17T18:17:56.304Z",
+      "ctime": "2018-06-20T03:23:59.984Z",
+      "birthtime": "2018-06-17T18:16:25.086Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1c7f56e1966f869ab09a04047f047193",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md",
+      "relativePath": "docs/cards.md",
+      "extension": "md",
+      "size": 2150,
+      "prettySize": "2.15 kB",
+      "modifiedTime": "2018-06-20T02:50:21.896Z",
+      "accessTime": "2018-06-20T03:26:36.876Z",
+      "changeTime": "2018-06-20T03:24:00.006Z",
+      "birthTime": "2018-06-16T21:27:09.276Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "cards.md",
+      "ext": ".md",
+      "name": "cards",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820900,
+      "blocks": 8,
+      "atimeMs": 1529465196875.7708,
+      "mtimeMs": 1529463021895.9768,
+      "ctimeMs": 1529465040005.8992,
+      "birthtimeMs": 1529184429276.3564,
+      "atime": "2018-06-20T03:26:36.876Z",
+      "mtime": "2018-06-20T02:50:21.896Z",
+      "ctime": "2018-06-20T03:24:00.006Z",
+      "birthtime": "2018-06-16T21:27:09.276Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "50d7ee28ae618df060414fa0879aa849",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md",
+      "relativePath": "docs/containers.md",
+      "extension": "md",
+      "size": 678,
+      "prettySize": "678 B",
+      "modifiedTime": "2018-06-20T02:47:28.940Z",
+      "accessTime": "2018-06-20T03:26:36.876Z",
+      "changeTime": "2018-06-20T03:24:00.005Z",
+      "birthTime": "2018-06-16T19:55:11.702Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "containers.md",
+      "ext": ".md",
+      "name": "containers",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820899,
+      "blocks": 8,
+      "atimeMs": 1529465196875.8533,
+      "mtimeMs": 1529462848940.35,
+      "ctimeMs": 1529465040004.9348,
+      "birthtimeMs": 1529178911701.5073,
+      "atime": "2018-06-20T03:26:36.876Z",
+      "mtime": "2018-06-20T02:47:28.940Z",
+      "ctime": "2018-06-20T03:24:00.005Z",
+      "birthtime": "2018-06-16T19:55:11.702Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a820d5a428f76861d4e8221d753b7a85",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md",
+      "relativePath": "docs/buttons.md",
+      "extension": "md",
+      "size": 2260,
+      "prettySize": "2.26 kB",
+      "modifiedTime": "2018-06-16T23:16:16.367Z",
+      "accessTime": "2018-06-20T03:26:36.876Z",
+      "changeTime": "2018-06-20T03:23:59.983Z",
+      "birthTime": "2018-06-16T19:55:17.868Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "buttons.md",
+      "ext": ".md",
+      "name": "buttons",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820889,
+      "blocks": 8,
+      "atimeMs": 1529465196875.6738,
+      "mtimeMs": 1529190976366.7627,
+      "ctimeMs": 1529465039983.2722,
+      "birthtimeMs": 1529178917867.6716,
+      "atime": "2018-06-20T03:26:36.876Z",
+      "mtime": "2018-06-16T23:16:16.367Z",
+      "ctime": "2018-06-20T03:23:59.983Z",
+      "birthtime": "2018-06-16T19:55:17.868Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/content.json absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/content.json absPath of file",
+      "children": [
+        "content"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d4cf84aebeed1077969e9f43210db4fc",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/content.json",
+      "relativePath": "docs/content.json",
+      "extension": "json",
+      "size": 523,
+      "prettySize": "523 B",
+      "modifiedTime": "2018-06-16T21:28:24.357Z",
+      "accessTime": "2018-06-20T03:26:36.876Z",
+      "changeTime": "2018-06-20T03:23:59.982Z",
+      "birthTime": "2018-06-16T18:57:45.053Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "content.json",
+      "ext": ".json",
+      "name": "content",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820888,
+      "blocks": 8,
+      "atimeMs": 1529465196875.9106,
+      "mtimeMs": 1529184504356.6787,
+      "ctimeMs": 1529465039982.4858,
+      "birthtimeMs": 1529175465053.0278,
+      "atime": "2018-06-20T03:26:36.876Z",
+      "mtime": "2018-06-16T21:28:24.357Z",
+      "ctime": "2018-06-20T03:23:59.982Z",
+      "birthtime": "2018-06-16T18:57:45.053Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dd974567d9ec35122190f7f8beee6b6f",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md",
+      "relativePath": "docs/forms.md",
+      "extension": "md",
+      "size": 8993,
+      "prettySize": "8.99 kB",
+      "modifiedTime": "2018-06-20T02:54:56.042Z",
+      "accessTime": "2018-06-20T03:26:36.876Z",
+      "changeTime": "2018-06-20T03:23:59.988Z",
+      "birthTime": "2018-06-16T19:55:24.007Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "forms.md",
+      "ext": ".md",
+      "name": "forms",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820891,
+      "blocks": 24,
+      "atimeMs": 1529465196875.972,
+      "mtimeMs": 1529463296042.4863,
+      "ctimeMs": 1529465039988.0815,
+      "birthtimeMs": 1529178924006.8406,
+      "atime": "2018-06-20T03:26:36.876Z",
+      "mtime": "2018-06-20T02:54:56.042Z",
+      "ctime": "2018-06-20T03:23:59.988Z",
+      "birthtime": "2018-06-16T19:55:24.007Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "95bc055aacad8355d9a662ff037873f8",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md",
+      "relativePath": "docs/getting-started.md",
+      "extension": "md",
+      "size": 312,
+      "prettySize": "312 B",
+      "modifiedTime": "2018-06-16T23:00:59.239Z",
+      "accessTime": "2018-06-20T03:26:36.876Z",
+      "changeTime": "2018-06-20T03:23:59.993Z",
+      "birthTime": "2018-06-16T18:57:57.719Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "getting-started.md",
+      "ext": ".md",
+      "name": "getting-started",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820895,
+      "blocks": 8,
+      "atimeMs": 1529465196876.087,
+      "mtimeMs": 1529190059238.9438,
+      "ctimeMs": 1529465039993.0999,
+      "birthtimeMs": 1529175477718.581,
+      "atime": "2018-06-20T03:26:36.876Z",
+      "mtime": "2018-06-16T23:00:59.239Z",
+      "ctime": "2018-06-20T03:23:59.993Z",
+      "birthtime": "2018-06-16T18:57:57.719Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1696e883346d0a3a68afd847025e698c",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md",
+      "relativePath": "docs/utilities.md",
+      "extension": "md",
+      "size": 378,
+      "prettySize": "378 B",
+      "modifiedTime": "2018-06-20T02:13:11.438Z",
+      "accessTime": "2018-06-20T03:26:36.876Z",
+      "changeTime": "2018-06-20T03:23:59.992Z",
+      "birthTime": "2018-06-16T21:28:17.867Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "utilities.md",
+      "ext": ".md",
+      "name": "utilities",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820894,
+      "blocks": 8,
+      "atimeMs": 1529465196876.2847,
+      "mtimeMs": 1529460791437.829,
+      "ctimeMs": 1529465039991.837,
+      "birthtimeMs": 1529184497867.1665,
+      "atime": "2018-06-20T03:26:36.876Z",
+      "mtime": "2018-06-20T02:13:11.438Z",
+      "ctime": "2018-06-20T03:23:59.992Z",
+      "birthtime": "2018-06-16T21:28:17.867Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2daded443e148aed28a6cce6f3f24199",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md",
+      "relativePath": "docs/media.md",
+      "extension": "md",
+      "size": 741,
+      "prettySize": "741 B",
+      "modifiedTime": "2018-06-18T18:20:44.946Z",
+      "accessTime": "2018-06-20T03:26:36.876Z",
+      "changeTime": "2018-06-20T03:23:59.994Z",
+      "birthTime": "2018-06-16T21:27:41.219Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "media.md",
+      "ext": ".md",
+      "name": "media",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820896,
+      "blocks": 8,
+      "atimeMs": 1529465196876.248,
+      "mtimeMs": 1529346044946.0347,
+      "ctimeMs": 1529465039994.4023,
+      "birthtimeMs": 1529184461218.6023,
+      "atime": "2018-06-20T03:26:36.876Z",
+      "mtime": "2018-06-18T18:20:44.946Z",
+      "ctime": "2018-06-20T03:23:59.994Z",
+      "birthtime": "2018-06-16T21:27:41.219Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1c6f9b644f0e0b85b7241c7597d09b51",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md",
+      "relativePath": "docs/grid.md",
+      "extension": "md",
+      "size": 10061,
+      "prettySize": "10.1 kB",
+      "modifiedTime": "2018-06-20T02:07:49.774Z",
+      "accessTime": "2018-06-20T03:26:36.876Z",
+      "changeTime": "2018-06-20T03:24:00.004Z",
+      "birthTime": "2018-06-16T21:28:00.030Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "grid.md",
+      "ext": ".md",
+      "name": "grid",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820898,
+      "blocks": 24,
+      "atimeMs": 1529465196876.1206,
+      "mtimeMs": 1529460469773.5527,
+      "ctimeMs": 1529465040003.5764,
+      "birthtimeMs": 1529184480030.419,
+      "atime": "2018-06-20T03:26:36.876Z",
+      "mtime": "2018-06-20T02:07:49.774Z",
+      "ctime": "2018-06-20T03:24:00.004Z",
+      "birthtime": "2018-06-16T21:28:00.030Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts/test.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts/test.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts/test.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"First Post\"\ncover: \"https://unsplash.it/400/300/?random?BoldMage\"\ndate: \"14/06/2018\"\ntype: \"post\"\n---\n\nTest\n\n```javascript\nconsole.log('testing purposes');\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "17c41b903bf25ebcc2d6c02661385a1a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "First Post",
+        "cover": "https://unsplash.it/400/300/?random?BoldMage",
+        "date": "14/06/2018",
+        "type": "post",
+        "_PARENT": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts/test.md absPath of file",
+        "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts/test.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nTest\n\n```javascript\nconsole.log('testing purposes');\n```",
+      "fileAbsolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts/test.md",
+      "fields": {
+        "slug": "/docs/first-post"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: 'Cards'\n---\n\n## Full Card\n\n<div class=\"row mb2\">\n    <div class=\"column xlarge-6 medium-12 small-12\">\n        <div class=\"card card-hover\">\n            <div class=\"card-header\">\n                <h4>Card header</h4>\n            </div>\n            <div class=\"card-img\">\n                <img src=\"drone1.JPG\" alt=\"Drone picture\">\n            </div>\n            <div class=\"card-footer\">\n                <h4>Card footer</h4>\n            </div>\n        </div>\n    </div>\n    <div class=\"column xlarge-6 medium-12 small-12\"></div>\n</div>\n\n```html\n<div class=\"card card-hover\">\n    <div class=\"card-header\">\n        <h4>Card header</h4>\n    </div>\n    <div class=\"card-img\">\n        <img src=\"source.jpg\" alt=\"\">\n    </div>\n    <div class=\"card-footer\">\n        <h4>Card footer</h4>\n    </div>\n</div>\n```\n\n## Headless Card\n\n<div class=\"row mb2\">\n    <div class=\"column xlarge-6 medium-12 small-12\">\n        <div class=\"card card-no-header card-hover\">\n            <div class=\"card-img\">\n                <img src=\"drone.JPG\" alt=\"Drone picture\">\n            </div>\n            <div class=\"card-footer\">\n                <h4>Card footer</h4>\n            </div>\n        </div>\n    </div>\n    <div class=\"column xlarge-6 medium-12 small-12\"></div>\n</div>\n\n```html\n<div class=\"card card-no-header card-hover\">\n    <div class=\"card-img\">\n        <img src=\"source.jpg\" alt=\"Drone picture\">\n    </div>\n    <div class=\"card-footer\">\n        <h4>Card footer</h4>\n    </div>\n</div>\n```\n\n## Footerless Card\n\n<div class=\"row mb2\">\n    <div class=\"column xlarge-6 medium-12 small-12\">\n        <div class=\"card card-no-footer card-hover\">\n            <div class=\"card-header\">\n                <h4>Card header</h4>\n            </div>\n            <div class=\"card-img\">\n                <img src=\"drone2.jpg\" alt=\"Drone picture\">\n            </div>\n        </div>\n    </div>\n    <div class=\"column xlarge-6 medium-12 small-12\"></div>\n</div>\n\n```html\n<div class=\"card card-no-footer card-hover\">\n    <div class=\"card-header\">\n        <h4>Card header</h4>\n    </div>\n    <div class=\"card-img\">\n        <img src=\"source.jpg\" alt=\"Drone picture\">\n    </div>\n</div>\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "36f0061cf77db5ce59216bc7bda37a15",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Cards",
+        "_PARENT": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md absPath of file",
+        "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n## Full Card\n\n<div class=\"row mb2\">\n    <div class=\"column xlarge-6 medium-12 small-12\">\n        <div class=\"card card-hover\">\n            <div class=\"card-header\">\n                <h4>Card header</h4>\n            </div>\n            <div class=\"card-img\">\n                <img src=\"drone1.JPG\" alt=\"Drone picture\">\n            </div>\n            <div class=\"card-footer\">\n                <h4>Card footer</h4>\n            </div>\n        </div>\n    </div>\n    <div class=\"column xlarge-6 medium-12 small-12\"></div>\n</div>\n\n```html\n<div class=\"card card-hover\">\n    <div class=\"card-header\">\n        <h4>Card header</h4>\n    </div>\n    <div class=\"card-img\">\n        <img src=\"source.jpg\" alt=\"\">\n    </div>\n    <div class=\"card-footer\">\n        <h4>Card footer</h4>\n    </div>\n</div>\n```\n\n## Headless Card\n\n<div class=\"row mb2\">\n    <div class=\"column xlarge-6 medium-12 small-12\">\n        <div class=\"card card-no-header card-hover\">\n            <div class=\"card-img\">\n                <img src=\"drone.JPG\" alt=\"Drone picture\">\n            </div>\n            <div class=\"card-footer\">\n                <h4>Card footer</h4>\n            </div>\n        </div>\n    </div>\n    <div class=\"column xlarge-6 medium-12 small-12\"></div>\n</div>\n\n```html\n<div class=\"card card-no-header card-hover\">\n    <div class=\"card-img\">\n        <img src=\"source.jpg\" alt=\"Drone picture\">\n    </div>\n    <div class=\"card-footer\">\n        <h4>Card footer</h4>\n    </div>\n</div>\n```\n\n## Footerless Card\n\n<div class=\"row mb2\">\n    <div class=\"column xlarge-6 medium-12 small-12\">\n        <div class=\"card card-no-footer card-hover\">\n            <div class=\"card-header\">\n                <h4>Card header</h4>\n            </div>\n            <div class=\"card-img\">\n                <img src=\"drone2.jpg\" alt=\"Drone picture\">\n            </div>\n        </div>\n    </div>\n    <div class=\"column xlarge-6 medium-12 small-12\"></div>\n</div>\n\n```html\n<div class=\"card card-no-footer card-hover\">\n    <div class=\"card-header\">\n        <h4>Card header</h4>\n    </div>\n    <div class=\"card-img\">\n        <img src=\"source.jpg\" alt=\"Drone picture\">\n    </div>\n</div>\n```",
+      "fileAbsolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md",
+      "fields": {
+        "slug": "/docs/cards"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: 'Buttons'\n---\n\n### Primary\n\n<button class=\"btn btn-primary gradient-black\">btn-primary</button>\n<button class=\"btn btn-primary gradient-green\">btn-primary</button>\n<button class=\"btn btn-primary gradient-orange\">btn-primary</button>\n<button class=\"btn btn-primary gradient-purple\">btn-primary</button>\n\n```html\n<button class=\"btn btn-primary gradient-black\">btn-primary</button>\n\n<button class=\"btn btn-primary gradient-green\">btn-primary</button>\n\n<button class=\"btn btn-primary gradient-orange\">btn-primary</button>\n\n<button class=\"btn btn-primary gradient-purple\">btn-primary</button>\n```\n\n### Rounded\n\n<button class=\"btn btn-rounded gradient-black\">btn-rounded</button>\n<button class=\"btn btn-rounded gradient-green\">btn-rounded</button>\n<button class=\"btn btn-rounded gradient-orange\">btn-rounded</button>\n<button class=\"btn btn-rounded gradient-purple\">btn-rounded</button>\n\n```html\n<button class=\"btn btn-rounded gradient-black\">btn-rounded</button>\n\n<button class=\"btn btn-rounded gradient-green\">btn-rounded</button>\n\n<button class=\"btn btn-rounded gradient-orange\">btn-rounded</button>\n\n<button class=\"btn btn-rounded gradient-purple\">btn-rounded</button>\n```\n\n### Outlined\n\n<button class=\"btn btn-rounded btn-outlined black-btn\">btn-outlined</button>\n<button class=\"btn btn-rounded btn-outlined green-btn\">btn-outlined</button>\n<button class=\"btn btn-rounded btn-outlined orange-btn\">btn-outlined</button>\n<button class=\"btn btn-rounded btn-outlined purple-btn\">btn-outlined</button>\n\n```html\n<button class=\"btn btn-rounded btn-outlined black-btn\">btn-outlined</button>\n\n<button class=\"btn btn-rounded btn-outlined green-btn\">btn-outlined</button>\n\n<button class=\"btn btn-rounded btn-outlined orange-btn\">btn-outlined</button>\n\n<button class=\"btn btn-rounded btn-outlined purple-btn\">btn-outlined</button>\n```\n\n## Disabled\n\n<button class=\"btn btn-primary\" disabled>btn-primary</button>\n<button class=\"btn btn-rounded\" disabled>btn-rounded</button>\n<button class=\"btn btn-rounded btn-outlined\" disabled>btn-outlined</button>\n\n```html\n<button class=\"btn btn-primary\" disabled>btn-primary</button>\n\n<button class=\"btn btn-rounded\" disabled>btn-rounded</button>\n\n<button class=\"btn btn-rounded btn-outlined\" disabled>btn-outlined</button>\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "050208ec9655b8fd0682bf7c33740165",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Buttons",
+        "_PARENT": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md absPath of file",
+        "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n### Primary\n\n<button class=\"btn btn-primary gradient-black\">btn-primary</button>\n<button class=\"btn btn-primary gradient-green\">btn-primary</button>\n<button class=\"btn btn-primary gradient-orange\">btn-primary</button>\n<button class=\"btn btn-primary gradient-purple\">btn-primary</button>\n\n```html\n<button class=\"btn btn-primary gradient-black\">btn-primary</button>\n\n<button class=\"btn btn-primary gradient-green\">btn-primary</button>\n\n<button class=\"btn btn-primary gradient-orange\">btn-primary</button>\n\n<button class=\"btn btn-primary gradient-purple\">btn-primary</button>\n```\n\n### Rounded\n\n<button class=\"btn btn-rounded gradient-black\">btn-rounded</button>\n<button class=\"btn btn-rounded gradient-green\">btn-rounded</button>\n<button class=\"btn btn-rounded gradient-orange\">btn-rounded</button>\n<button class=\"btn btn-rounded gradient-purple\">btn-rounded</button>\n\n```html\n<button class=\"btn btn-rounded gradient-black\">btn-rounded</button>\n\n<button class=\"btn btn-rounded gradient-green\">btn-rounded</button>\n\n<button class=\"btn btn-rounded gradient-orange\">btn-rounded</button>\n\n<button class=\"btn btn-rounded gradient-purple\">btn-rounded</button>\n```\n\n### Outlined\n\n<button class=\"btn btn-rounded btn-outlined black-btn\">btn-outlined</button>\n<button class=\"btn btn-rounded btn-outlined green-btn\">btn-outlined</button>\n<button class=\"btn btn-rounded btn-outlined orange-btn\">btn-outlined</button>\n<button class=\"btn btn-rounded btn-outlined purple-btn\">btn-outlined</button>\n\n```html\n<button class=\"btn btn-rounded btn-outlined black-btn\">btn-outlined</button>\n\n<button class=\"btn btn-rounded btn-outlined green-btn\">btn-outlined</button>\n\n<button class=\"btn btn-rounded btn-outlined orange-btn\">btn-outlined</button>\n\n<button class=\"btn btn-rounded btn-outlined purple-btn\">btn-outlined</button>\n```\n\n## Disabled\n\n<button class=\"btn btn-primary\" disabled>btn-primary</button>\n<button class=\"btn btn-rounded\" disabled>btn-rounded</button>\n<button class=\"btn btn-rounded btn-outlined\" disabled>btn-outlined</button>\n\n```html\n<button class=\"btn btn-primary\" disabled>btn-primary</button>\n\n<button class=\"btn btn-rounded\" disabled>btn-rounded</button>\n\n<button class=\"btn btn-rounded btn-outlined\" disabled>btn-outlined</button>\n```",
+      "fileAbsolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md",
+      "fields": {
+        "slug": "/docs/buttons"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: 'Containers'\n---\n\n## full-container\n\n<div class=\"full-container mb2 bg-custom\">\n    <h2>Test</h2>\n</div>\n\n```html\n<div class=\"full-container\">\n  // elements\n</div>\n```\n\n## container\n\n<div class=\"container mb2 bg-custom\">\n    <h2>1200px</h2>\n</div>\n\n```html\n<div class=\"container\">\n  // check the console\n</div>\n```\n\n## small-container\n\n<div class=\"small-container mb2 bg-custom\">\n    <h2>960px</h2>\n</div>\n\n```html\n<div class=\"small-container\">\n  // To see the maxWidth of each container\n</div>\n```\n\n## flex-container\n\n<div class=\"flex-container mb2 bg-custom\">\n    <h4>Test</h4>\n    <h4>Test</h4>\n</div>\n\n```html\n<div class=\"flex-container\">\n  // elements\n</div>\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "e046c4d51b7ea2b723e4e7b82a66d723",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Containers",
+        "_PARENT": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md absPath of file",
+        "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n## full-container\n\n<div class=\"full-container mb2 bg-custom\">\n    <h2>Test</h2>\n</div>\n\n```html\n<div class=\"full-container\">\n  // elements\n</div>\n```\n\n## container\n\n<div class=\"container mb2 bg-custom\">\n    <h2>1200px</h2>\n</div>\n\n```html\n<div class=\"container\">\n  // check the console\n</div>\n```\n\n## small-container\n\n<div class=\"small-container mb2 bg-custom\">\n    <h2>960px</h2>\n</div>\n\n```html\n<div class=\"small-container\">\n  // To see the maxWidth of each container\n</div>\n```\n\n## flex-container\n\n<div class=\"flex-container mb2 bg-custom\">\n    <h4>Test</h4>\n    <h4>Test</h4>\n</div>\n\n```html\n<div class=\"flex-container\">\n  // elements\n</div>\n```",
+      "fileAbsolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md",
+      "fields": {
+        "slug": "/docs/containers"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: 'Forms'\n---\n\n## Input, Textarea & Select\n\n<form class=\"row\">\n    <div class=\"input-field black-input column column-first xlarge-6 small-12\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n    <div class=\"input-field black-input column column-last xlarge-6 small-12\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n    <div class=\"input-field black-input column column-first xlarge-6 small-12\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n    <div class=\"input-field black-input text-area-field column column-last xlarge-6 small-12\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n\n```html\n<form>\n    <div class=\"input-field black-input\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n\n    <div class=\"input-field black-input\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n\n    <div class=\"input-field black-input\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n\n    <div class=\"input-field black-input text-area-field\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n```\n\n<form class=\"row\">\n    <div class=\"input-field green-input column column-first xlarge-6 small-12\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n    <div class=\"input-field green-input column column-last xlarge-6 small-12\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n    <div class=\"input-field green-input column column-first xlarge-6 small-12\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n    <div class=\"input-field green-input text-area-field column column-last xlarge-6 small-12\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n\n```html\n<form>\n    <div class=\"input-field green-input\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n\n    <div class=\"input-field green-input\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n\n    <div class=\"input-field green-input\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n\n    <div class=\"input-field green-input text-area-field\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n```\n\n<form class=\"row\">\n    <div class=\"input-field orange-input column column-first xlarge-6 small-12\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n    <div class=\"input-field orange-input column column-last xlarge-6 small-12\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n    <div class=\"input-field orange-input column column-first xlarge-6 small-12\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n    <div class=\"input-field orange-input text-area-field column column-last xlarge-6 small-12\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n\n```html\n<form class=\"row\">\n    <div class=\"input-field orange-input\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n\n    <div class=\"input-field orange-input\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n\n    <div class=\"input-field orange-input\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n\n    <div class=\"input-field orange-input text-area-field\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n```\n\n<form class=\"row\">\n    <div class=\"input-field purple-input column column-first xlarge-6 small-12\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n    <div class=\"input-field purple-input column column-last xlarge-6 small-12\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n    <div class=\"input-field purple-input column column-first xlarge-6 small-12\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n    <div class=\"input-field purple-input text-area-field column column-last xlarge-6 small-12\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n\n```html\n<form class=\"row\">\n    <div class=\"input-field purple-input\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n\n    <div class=\"input-field purple-input\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n\n    <div class=\"input-field purple-input\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n\n    <div class=\"input-field purple-input text-area-field\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n```\n\n## Checkox and radio buttons\n\n<form class=\"push-down\">\n    <label>\n        <input type=\"checkbox\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n\n```html\n<form>\n    <label>\n        <input type=\"checkbox\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n```\n\n<form class=\"push-down\">\n    <label>\n        <input type=\"checkbox\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n\n```html\n<form>\n    <label>\n        <input type=\"checkbox\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n```\n\n<form class=\"push-down\">\n    <label>\n        <input type=\"checkbox\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n\n```html\n<form>\n    <label>\n        <input type=\"checkbox\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n```\n\n<form class=\"push-down\">\n    <label>\n        <input type=\"checkbox\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n\n```html\n<form>\n    <label>\n        <input type=\"checkbox\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "826c9121d4d71265637267fbe3754912",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Forms",
+        "_PARENT": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md absPath of file",
+        "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n## Input, Textarea & Select\n\n<form class=\"row\">\n    <div class=\"input-field black-input column column-first xlarge-6 small-12\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n    <div class=\"input-field black-input column column-last xlarge-6 small-12\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n    <div class=\"input-field black-input column column-first xlarge-6 small-12\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n    <div class=\"input-field black-input text-area-field column column-last xlarge-6 small-12\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n\n```html\n<form>\n    <div class=\"input-field black-input\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n\n    <div class=\"input-field black-input\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n\n    <div class=\"input-field black-input\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n\n    <div class=\"input-field black-input text-area-field\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n```\n\n<form class=\"row\">\n    <div class=\"input-field green-input column column-first xlarge-6 small-12\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n    <div class=\"input-field green-input column column-last xlarge-6 small-12\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n    <div class=\"input-field green-input column column-first xlarge-6 small-12\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n    <div class=\"input-field green-input text-area-field column column-last xlarge-6 small-12\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n\n```html\n<form>\n    <div class=\"input-field green-input\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n\n    <div class=\"input-field green-input\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n\n    <div class=\"input-field green-input\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n\n    <div class=\"input-field green-input text-area-field\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n```\n\n<form class=\"row\">\n    <div class=\"input-field orange-input column column-first xlarge-6 small-12\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n    <div class=\"input-field orange-input column column-last xlarge-6 small-12\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n    <div class=\"input-field orange-input column column-first xlarge-6 small-12\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n    <div class=\"input-field orange-input text-area-field column column-last xlarge-6 small-12\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n\n```html\n<form class=\"row\">\n    <div class=\"input-field orange-input\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n\n    <div class=\"input-field orange-input\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n\n    <div class=\"input-field orange-input\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n\n    <div class=\"input-field orange-input text-area-field\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n```\n\n<form class=\"row\">\n    <div class=\"input-field purple-input column column-first xlarge-6 small-12\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n    <div class=\"input-field purple-input column column-last xlarge-6 small-12\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n    <div class=\"input-field purple-input column column-first xlarge-6 small-12\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n    <div class=\"input-field purple-input text-area-field column column-last xlarge-6 small-12\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n\n```html\n<form class=\"row\">\n    <div class=\"input-field purple-input\">\n        <span class=\"user-icon\"></span>\n        <input type=\"text\" />\n    </div>\n\n    <div class=\"input-field purple-input\">\n        <span class=\"email-icon\"></span>\n        <input type=\"email\" placeholder=\"Enter your email...\" />\n    </div>\n\n    <div class=\"input-field purple-input\">\n        <select>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n            <option value=\"\">Unnamed</option>\n        </select>\n    </div>\n\n    <div class=\"input-field purple-input text-area-field\">\n        <span class=\"edit-icon\"></span>\n        <textarea></textarea>\n    </div>\n</form>\n```\n\n## Checkox and radio buttons\n\n<form class=\"push-down\">\n    <label>\n        <input type=\"checkbox\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n\n```html\n<form>\n    <label>\n        <input type=\"checkbox\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"black-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n```\n\n<form class=\"push-down\">\n    <label>\n        <input type=\"checkbox\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n\n```html\n<form>\n    <label>\n        <input type=\"checkbox\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"green-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n```\n\n<form class=\"push-down\">\n    <label>\n        <input type=\"checkbox\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n\n```html\n<form>\n    <label>\n        <input type=\"checkbox\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"orange-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n```\n\n<form class=\"push-down\">\n    <label>\n        <input type=\"checkbox\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n\n```html\n<form>\n    <label>\n        <input type=\"checkbox\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n    <label>\n        <input type=\"radio\" name=\"yow\" class=\"purple-checkbox\"/>\n        <span></span>\n    </label>\n</form>\n```",
+      "fileAbsolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md",
+      "fields": {
+        "slug": "/docs/forms"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: 'Getting Started'\n---\n\n### NPM\n\n```bash\nnpm i unnamed\n```\n\n### Yarn\n\n```bash\nyarn add unnamed\n```\n\n### CDN\n\n```html\n<link rel=\"stylesheet\" href=\"https://unpkg.com/unnamed\" />\n```\n\nOr customize a repository for landing pages\n\n```bash\ngit clone https://github.com/smakosh/Unnamed-getting-started.git\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "f5339c0d4d65d2b1c86e668fd121c01c",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Getting Started",
+        "_PARENT": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md absPath of file",
+        "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n### NPM\n\n```bash\nnpm i unnamed\n```\n\n### Yarn\n\n```bash\nyarn add unnamed\n```\n\n### CDN\n\n```html\n<link rel=\"stylesheet\" href=\"https://unpkg.com/unnamed\" />\n```\n\nOr customize a repository for landing pages\n\n```bash\ngit clone https://github.com/smakosh/Unnamed-getting-started.git\n```",
+      "fileAbsolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md",
+      "fields": {
+        "slug": "/docs/getting-started"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: 'Utilities'\n---\n\n### To center, left or right align text use these classes:\n\nTo center it\n\n```css\n.center-text\n```\n\nTo align left\n\n```css\n.left-text\n```\n\nTo align right\n\n```css\n.right-text\n```\n\n### To hide elements\n\nTo hide on tablet and down\n\n```css\n.hide-tablet-down\n```\n\nTo hide on mobile only\n\n```css\n.hide-mobile\n```\n\nTo hide on any screen size\n\n```css\n.hide\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "2cdd80442fc16806320ac0e983cceea8",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Utilities",
+        "_PARENT": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md absPath of file",
+        "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n### To center, left or right align text use these classes:\n\nTo center it\n\n```css\n.center-text\n```\n\nTo align left\n\n```css\n.left-text\n```\n\nTo align right\n\n```css\n.right-text\n```\n\n### To hide elements\n\nTo hide on tablet and down\n\n```css\n.hide-tablet-down\n```\n\nTo hide on mobile only\n\n```css\n.hide-mobile\n```\n\nTo hide on any screen size\n\n```css\n.hide\n```",
+      "fileAbsolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md",
+      "fields": {
+        "slug": "/docs/utilities"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: 'Media'\n---\n\n## Responsive image\n\n<div class=\"responsive-image\">\n    <img src=\"drone2.jpg\" alt=\"Responsive image\">\n</div>\n\n```html\n<div class=\"responsive-image mbottom\">\n    <img src=\"/images/source.jpg\" alt=\"\">\n</div>\n```\n\n## Responsive YouTube Iframe\n\n<div class=\"responsive-video\">\n    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3ixSvX5-Nsw\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>\n</div>\n\n```html\n<div class=\"responsive-video\">\n    <iframe \n        width=\"560\"\n        height=\"315\"\n        src=\"https://www.youtube.com/embed/3ixSvX5-Nsw\"\n        frameborder=\"0\"\n        gesture=\"media\"\n        allow=\"encrypted-media\" allowfullscreen>\n    </iframe>\n</div>\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "a711a29ad891d6cbdc9d850ab2fa050a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Media",
+        "_PARENT": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md absPath of file",
+        "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n## Responsive image\n\n<div class=\"responsive-image\">\n    <img src=\"drone2.jpg\" alt=\"Responsive image\">\n</div>\n\n```html\n<div class=\"responsive-image mbottom\">\n    <img src=\"/images/source.jpg\" alt=\"\">\n</div>\n```\n\n## Responsive YouTube Iframe\n\n<div class=\"responsive-video\">\n    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3ixSvX5-Nsw\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>\n</div>\n\n```html\n<div class=\"responsive-video\">\n    <iframe \n        width=\"560\"\n        height=\"315\"\n        src=\"https://www.youtube.com/embed/3ixSvX5-Nsw\"\n        frameborder=\"0\"\n        gesture=\"media\"\n        allow=\"encrypted-media\" allowfullscreen>\n    </iframe>\n</div>\n```",
+      "fileAbsolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md",
+      "fields": {
+        "slug": "/docs/media"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: 'Grid'\n---\n\n## Grid\n\n### 12 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>1</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>2</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>3</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>4</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>5</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>6</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>7</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>8</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>9</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>10</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>11</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>12</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            1\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            2\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            3\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            4\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            5\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            6\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            7\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            8\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            9\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            10\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            11\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            12\n        </div>\n    </div>\n</div>\n```\n\n### 2 columns each\n  \n<div class=\"row\">\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n    </div>\n</div>\n```\n\n### 3 columns each\n\n<div class=\"row\">\n    <div class=\"column xlarge-3 medium-6 small-12\">\n        <div class=\"columns\">\n            <p>3 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-3 medium-6 small-12\">\n        <div class=\"columns\">\n            <p>3 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-3 medium-6 small-12\">\n        <div class=\"columns\">\n            <p>3 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-3 medium-6 small-12\">\n        <div class=\"columns\">\n            <p>3 columns</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-3 medium-6 small-12\">\n            3 columns\n        </div>\n        <div class=\"column xlarge-3 medium-6 small-12\">\n            3 columns\n        </div>\n        <div class=\"column xlarge-3 medium-6 small-12\">\n            3 columns\n        </div>\n        <div class=\"column xlarge-3 medium-6 small-12\">\n            3 columns\n        </div>\n    </div>\n</div>\n```\n\n### 4 columns each\n\n<div class=\"row\">\n    <div class=\"column xlarge-4 small-12\">\n        <div class=\"columns\">\n            <p>4 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-4 small-12\">\n        <div class=\"columns\">\n            <p>4 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-4 small-12\">\n        <div class=\"columns\">\n            <p>4 columns</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-4 small-12\">\n            4 columns\n        </div>\n        <div class=\"column xlarge-4 small-12\">\n            4 columns\n        </div>\n        <div class=\"column xlarge-4 small-12\">\n            4 columns\n        </div>\n    </div>\n</div>\n```\n\n### 5 columns / 7 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-5 small-12\">\n        <div class=\"columns\">\n            <p>5 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-7 small-12\">\n        <div class=\"columns\">\n            <p>7 columns</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-5 small-12\">\n            5 columns\n        </div>\n        <div class=\"column xlarge-7 small-12\">\n            7 columns\n        </div>\n    </div>\n</div>\n```\n\n### 6 columns each\n\n<div class=\"row\">\n    <div class=\"column xlarge-6 small-12\">\n        <div class=\"columns\">\n            <p>6 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-6 small-12\">\n        <div class=\"columns\">\n            <p>6 columns</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-6 small-12\">\n            6 columns\n        </div>\n        <div class=\"column xlarge-6 small-12\">\n            6 columns\n        </div>\n    </div>\n</div>\n```\n\n### 7 columns / 5 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-7 small-12\">\n        <div class=\"columns\">\n            <p>7 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-5 small-12\">\n        <div class=\"columns\">\n            <p>5</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-7 small-12\">\n            7 columns\n        </div>\n        <div class=\"column xlarge-5 small-12\">\n            5 columns\n        </div>\n    </div>\n</div>\n```\n\n### 8 columns / 4 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-8 small-12\">\n        <div class=\"columns\">\n            <p>8 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-4 small-12\">\n        <div class=\"columns\">\n            <p>4</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-8 small-12\">\n            8 columns\n        </div>\n        <div class=\"column xlarge-4 small-12\">\n            4 columns\n        </div>\n    </div>\n</div>\n```\n\n### 9 columns / 3 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-9 small-12\">\n        <div class=\"columns\">\n            <p>9 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-3 small-12\">\n        <div class=\"columns\">\n            <p>3</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-9 small-12\">\n            9 columns\n        </div>\n        <div class=\"column xlarge-3 small-12\">\n            3 columns\n        </div>\n    </div>\n</div>\n```\n\n### 10 columns / 2 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-10 small-12\">\n        <div class=\"columns\">\n            <p>10 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 small-12\">\n        <div class=\"columns\">\n            <p>2</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-10 small-12\">\n            10 columns\n        </div>\n        <div class=\"column xlarge-2 small-12\">\n            2 columns\n        </div>\n    </div>\n</div>\n```\n\n### 11 columns / 1 column\n\n<div class=\"row\">\n    <div class=\"column xlarge-11 small-12\">\n        <div class=\"columns\">\n            <p>11 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 small-12\">\n        <div class=\"columns\">\n            <p>1</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-11 small-12\">\n            11 columns\n        </div>\n        <div class=\"column xlarge-1 small-12\">\n            1 column\n        </div>\n    </div>\n</div>\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "c87007c7c799834eac27eadc7293e9cc",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Grid",
+        "_PARENT": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md absPath of file",
+        "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n## Grid\n\n### 12 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>1</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>2</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>3</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>4</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>5</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>6</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>7</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>8</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>9</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>10</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>11</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n        <div class=\"columns\">\n            <p>12</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            1\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            2\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            3\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            4\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            5\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            6\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            7\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            8\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            9\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            10\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            11\n        </div>\n        <div class=\"column xlarge-1 large-2 medium-3 small-12\">\n            12\n        </div>\n    </div>\n</div>\n```\n\n### 2 columns each\n  \n<div class=\"row\">\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 medium-4 small-12\">\n        <div class=\"columns\">\n            <p>2 columns</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n        <div class=\"column xlarge-2 medium-4 small-12\">\n            2 columns\n        </div>\n    </div>\n</div>\n```\n\n### 3 columns each\n\n<div class=\"row\">\n    <div class=\"column xlarge-3 medium-6 small-12\">\n        <div class=\"columns\">\n            <p>3 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-3 medium-6 small-12\">\n        <div class=\"columns\">\n            <p>3 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-3 medium-6 small-12\">\n        <div class=\"columns\">\n            <p>3 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-3 medium-6 small-12\">\n        <div class=\"columns\">\n            <p>3 columns</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-3 medium-6 small-12\">\n            3 columns\n        </div>\n        <div class=\"column xlarge-3 medium-6 small-12\">\n            3 columns\n        </div>\n        <div class=\"column xlarge-3 medium-6 small-12\">\n            3 columns\n        </div>\n        <div class=\"column xlarge-3 medium-6 small-12\">\n            3 columns\n        </div>\n    </div>\n</div>\n```\n\n### 4 columns each\n\n<div class=\"row\">\n    <div class=\"column xlarge-4 small-12\">\n        <div class=\"columns\">\n            <p>4 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-4 small-12\">\n        <div class=\"columns\">\n            <p>4 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-4 small-12\">\n        <div class=\"columns\">\n            <p>4 columns</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-4 small-12\">\n            4 columns\n        </div>\n        <div class=\"column xlarge-4 small-12\">\n            4 columns\n        </div>\n        <div class=\"column xlarge-4 small-12\">\n            4 columns\n        </div>\n    </div>\n</div>\n```\n\n### 5 columns / 7 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-5 small-12\">\n        <div class=\"columns\">\n            <p>5 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-7 small-12\">\n        <div class=\"columns\">\n            <p>7 columns</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-5 small-12\">\n            5 columns\n        </div>\n        <div class=\"column xlarge-7 small-12\">\n            7 columns\n        </div>\n    </div>\n</div>\n```\n\n### 6 columns each\n\n<div class=\"row\">\n    <div class=\"column xlarge-6 small-12\">\n        <div class=\"columns\">\n            <p>6 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-6 small-12\">\n        <div class=\"columns\">\n            <p>6 columns</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-6 small-12\">\n            6 columns\n        </div>\n        <div class=\"column xlarge-6 small-12\">\n            6 columns\n        </div>\n    </div>\n</div>\n```\n\n### 7 columns / 5 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-7 small-12\">\n        <div class=\"columns\">\n            <p>7 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-5 small-12\">\n        <div class=\"columns\">\n            <p>5</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-7 small-12\">\n            7 columns\n        </div>\n        <div class=\"column xlarge-5 small-12\">\n            5 columns\n        </div>\n    </div>\n</div>\n```\n\n### 8 columns / 4 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-8 small-12\">\n        <div class=\"columns\">\n            <p>8 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-4 small-12\">\n        <div class=\"columns\">\n            <p>4</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-8 small-12\">\n            8 columns\n        </div>\n        <div class=\"column xlarge-4 small-12\">\n            4 columns\n        </div>\n    </div>\n</div>\n```\n\n### 9 columns / 3 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-9 small-12\">\n        <div class=\"columns\">\n            <p>9 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-3 small-12\">\n        <div class=\"columns\">\n            <p>3</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-9 small-12\">\n            9 columns\n        </div>\n        <div class=\"column xlarge-3 small-12\">\n            3 columns\n        </div>\n    </div>\n</div>\n```\n\n### 10 columns / 2 columns\n\n<div class=\"row\">\n    <div class=\"column xlarge-10 small-12\">\n        <div class=\"columns\">\n            <p>10 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-2 small-12\">\n        <div class=\"columns\">\n            <p>2</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-10 small-12\">\n            10 columns\n        </div>\n        <div class=\"column xlarge-2 small-12\">\n            2 columns\n        </div>\n    </div>\n</div>\n```\n\n### 11 columns / 1 column\n\n<div class=\"row\">\n    <div class=\"column xlarge-11 small-12\">\n        <div class=\"columns\">\n            <p>11 columns</p>\n        </div>\n    </div>\n    <div class=\"column xlarge-1 small-12\">\n        <div class=\"columns\">\n            <p>1</p>\n        </div>\n    </div>\n</div>\n\n```html\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"column xlarge-11 small-12\">\n            11 columns\n        </div>\n        <div class=\"column xlarge-1 small-12\">\n            1 column\n        </div>\n    </div>\n</div>\n```",
+      "fileAbsolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md",
+      "fields": {
+        "slug": "/docs/grid"
+      }
+    },
+    "content": {
+      "id": "content",
+      "chapters": [
+        {
+          "title": "Getting started",
+          "entry": "./getting-started.md"
+        },
+        {
+          "title": "Containers",
+          "entry": "./containers.md"
+        },
+        {
+          "title": "Buttons",
+          "entry": "./buttons.md"
+        },
+        {
+          "title": "Forms",
+          "entry": "./forms.md"
+        },
+        {
+          "title": "Cards",
+          "entry": "./cards.md"
+        },
+        {
+          "title": "Media",
+          "entry": "./media.md"
+        },
+        {
+          "title": "Grid",
+          "entry": "./grid.md"
+        },
+        {
+          "title": "Utilities",
+          "entry": "./utilities.md"
+        }
+      ],
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/content.json absPath of file",
+      "internal": {
+        "contentDigest": "26c50d1ea72c18828c6a5d08af9a92cc",
+        "type": "DocsJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone1.JPG absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone1.JPG absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone1.JPG absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d0eddfba0e1c349bd4dfdbe1148adc32",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone1.JPG",
+      "relativePath": "docs/drone1.JPG",
+      "extension": "jpg",
+      "size": 550967,
+      "prettySize": "551 kB",
+      "modifiedTime": "2018-06-17T18:17:28.424Z",
+      "accessTime": "2018-06-20T03:26:27.497Z",
+      "changeTime": "2018-06-20T03:23:59.990Z",
+      "birthTime": "2018-06-17T18:17:28.420Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "drone1.JPG",
+      "ext": ".JPG",
+      "name": "drone1",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820893,
+      "blocks": 1080,
+      "atimeMs": 1529465187497.2207,
+      "mtimeMs": 1529259448424.2031,
+      "ctimeMs": 1529465039990.4106,
+      "birthtimeMs": 1529259448419.5232,
+      "atime": "2018-06-20T03:26:27.497Z",
+      "mtime": "2018-06-17T18:17:28.424Z",
+      "ctime": "2018-06-20T03:23:59.990Z",
+      "birthtime": "2018-06-17T18:17:28.420Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone1.JPG absPath of file >> ImageSharp": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone1.JPG absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone1.JPG absPath of file",
+      "internal": {
+        "contentDigest": "d0eddfba0e1c349bd4dfdbe1148adc32",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone.JPG absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone.JPG absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone.JPG absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bb540e81c2d0a8c38e13b19a3136b635",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone.JPG",
+      "relativePath": "docs/drone.JPG",
+      "extension": "jpg",
+      "size": 786390,
+      "prettySize": "786 kB",
+      "modifiedTime": "2018-06-17T18:17:28.419Z",
+      "accessTime": "2018-06-20T03:26:27.497Z",
+      "changeTime": "2018-06-20T03:23:59.996Z",
+      "birthTime": "2018-06-17T18:17:28.415Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "drone.JPG",
+      "ext": ".JPG",
+      "name": "drone",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820897,
+      "blocks": 1536,
+      "atimeMs": 1529465187497.2153,
+      "mtimeMs": 1529259448419.3447,
+      "ctimeMs": 1529465039995.9102,
+      "birthtimeMs": 1529259448414.5654,
+      "atime": "2018-06-20T03:26:27.497Z",
+      "mtime": "2018-06-17T18:17:28.419Z",
+      "ctime": "2018-06-20T03:23:59.996Z",
+      "birthtime": "2018-06-17T18:17:28.415Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone.JPG absPath of file >> ImageSharp": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone.JPG absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone.JPG absPath of file",
+      "internal": {
+        "contentDigest": "bb540e81c2d0a8c38e13b19a3136b635",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone2.jpg absPath of file": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone2.jpg absPath of file",
+      "children": [
+        "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone2.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4972dd01bebcfdae3825f5ac97a90ce7",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone2.jpg",
+      "relativePath": "docs/drone2.jpg",
+      "extension": "jpg",
+      "size": 910179,
+      "prettySize": "910 kB",
+      "modifiedTime": "2018-06-17T18:17:28.431Z",
+      "accessTime": "2018-06-20T03:26:27.497Z",
+      "changeTime": "2018-06-20T03:23:59.990Z",
+      "birthTime": "2018-06-17T18:17:28.424Z",
+      "root": "/",
+      "dir": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs",
+      "base": "drone2.jpg",
+      "ext": ".jpg",
+      "name": "drone2",
+      "relativeDirectory": "docs",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8820892,
+      "blocks": 1784,
+      "atimeMs": 1529465187497.2253,
+      "mtimeMs": 1529259448430.9707,
+      "ctimeMs": 1529465039989.5774,
+      "birthtimeMs": 1529259448424.3542,
+      "atime": "2018-06-20T03:26:27.497Z",
+      "mtime": "2018-06-17T18:17:28.431Z",
+      "ctime": "2018-06-20T03:23:59.990Z",
+      "birthtime": "2018-06-17T18:17:28.424Z"
+    },
+    "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone2.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone2.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/drone2.jpg absPath of file",
+      "internal": {
+        "contentDigest": "4972dd01bebcfdae3825f5ac97a90ce7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /docs/first-post": {
+      "layout": "index",
+      "jsonName": "docs-first-post.json",
+      "internalComponentName": "ComponentDocsFirstPost",
+      "path": "/docs/first-post",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/post.jsx",
+      "componentChunkName": "component---src-templates-post-jsx",
+      "context": {
+        "slug": "/docs/first-post"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/post.jsx",
+      "id": "SitePage /docs/first-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b9889137066c9719272fb59c17b5f8e8",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /docs/cards": {
+      "layout": "index",
+      "jsonName": "docs-cards.json",
+      "internalComponentName": "ComponentDocsCards",
+      "path": "/docs/cards",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "componentChunkName": "component---src-templates-item-jsx",
+      "context": {
+        "slug": "/docs/cards"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "id": "SitePage /docs/cards",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "feee3527172014f95c80e001e4faa6b9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /docs/buttons": {
+      "layout": "index",
+      "jsonName": "docs-buttons.json",
+      "internalComponentName": "ComponentDocsButtons",
+      "path": "/docs/buttons",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "componentChunkName": "component---src-templates-item-jsx",
+      "context": {
+        "slug": "/docs/buttons"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "id": "SitePage /docs/buttons",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "868afdf10ebca6810d62cf943d15976c",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /docs/containers": {
+      "layout": "index",
+      "jsonName": "docs-containers.json",
+      "internalComponentName": "ComponentDocsContainers",
+      "path": "/docs/containers",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "componentChunkName": "component---src-templates-item-jsx",
+      "context": {
+        "slug": "/docs/containers"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "id": "SitePage /docs/containers",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7436b098784db0c529bd9a8493d998fd",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /docs/forms": {
+      "layout": "index",
+      "jsonName": "docs-forms.json",
+      "internalComponentName": "ComponentDocsForms",
+      "path": "/docs/forms",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "componentChunkName": "component---src-templates-item-jsx",
+      "context": {
+        "slug": "/docs/forms"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "id": "SitePage /docs/forms",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9c6af60af261f5377ffc00d075f331fe",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /docs/getting-started": {
+      "layout": "index",
+      "jsonName": "docs-getting-started.json",
+      "internalComponentName": "ComponentDocsGettingStarted",
+      "path": "/docs/getting-started",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "componentChunkName": "component---src-templates-item-jsx",
+      "context": {
+        "slug": "/docs/getting-started"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "id": "SitePage /docs/getting-started",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "969b29838c48d17d57705bc330d6d972",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /docs/utilities": {
+      "layout": "index",
+      "jsonName": "docs-utilities.json",
+      "internalComponentName": "ComponentDocsUtilities",
+      "path": "/docs/utilities",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "componentChunkName": "component---src-templates-item-jsx",
+      "context": {
+        "slug": "/docs/utilities"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "id": "SitePage /docs/utilities",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "51ed1b5be73f23672551d7bafdaa4325",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /docs/media": {
+      "layout": "index",
+      "jsonName": "docs-media.json",
+      "internalComponentName": "ComponentDocsMedia",
+      "path": "/docs/media",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "componentChunkName": "component---src-templates-item-jsx",
+      "context": {
+        "slug": "/docs/media"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "id": "SitePage /docs/media",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f28623fa34b9923d8af7bcbf2ff8ab61",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /docs/grid": {
+      "layout": "index",
+      "jsonName": "docs-grid.json",
+      "internalComponentName": "ComponentDocsGrid",
+      "path": "/docs/grid",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "componentChunkName": "component---src-templates-item-jsx",
+      "context": {
+        "slug": "/docs/grid"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/templates/item.jsx",
+      "id": "SitePage /docs/grid",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8f5d67d5eceef420a28c8b21699e6533",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b6a254c727a9dfb45a67ba5035fa5692",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e1769db9b39cdf0c882a1c51a0fb45cc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/smakosh/Desktop/openSource/unnamed-css-framework/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "03ba23ed5e0526b70b274d72e1fff9d1",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "88c641f57653b16e020c80002cdd3e94"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "content": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md absPath of file": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/getting-started.md absPath of file >>> MarkdownRemark": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md absPath of file": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/containers.md absPath of file >>> MarkdownRemark": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md absPath of file": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/buttons.md absPath of file >>> MarkdownRemark": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md absPath of file": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/forms.md absPath of file >>> MarkdownRemark": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/forms",
+        "/docs/getting-started",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md absPath of file": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/cards.md absPath of file >>> MarkdownRemark": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md absPath of file": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/media.md absPath of file >>> MarkdownRemark": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md absPath of file": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/grid.md absPath of file >>> MarkdownRemark": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md absPath of file": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/utilities",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/docs/utilities.md absPath of file >>> MarkdownRemark": [
+        "/docs/buttons",
+        "/docs/cards",
+        "/docs/containers",
+        "/docs/utilities",
+        "/docs/getting-started",
+        "/docs/forms",
+        "/docs/media",
+        "/docs/grid"
+      ],
+      "/Users/smakosh/Desktop/openSource/unnamed-css-framework/content/posts/test.md absPath of file >>> MarkdownRemark": [
+        "/docs/first-post"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}

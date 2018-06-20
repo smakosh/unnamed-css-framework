@@ -1,0 +1,19 @@
+.burger {
+	position: fixed;
+	top: 3.5rem;
+	left: 10px;
+	cursor: pointer;
+	background: #e1e3e4;
+	padding: 0.8rem;
+	box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	z-index: 2;
+
+	@media screen and (min-width: 960px) {
+		display: none;
+	}
+}
+
+.burger.active {
+	left: 250px;
+}

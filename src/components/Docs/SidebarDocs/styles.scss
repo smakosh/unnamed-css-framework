@@ -1,0 +1,40 @@
+.docs-sidebar {
+	position: fixed;
+	bottom: 0;
+	top: 3rem;
+	padding-top: 4em;
+	z-index: 1;
+	overflow-y: auto;
+	width: 300px;
+	color: #364149;
+	background: unset;
+	border-right: 1px solid rgba(0, 0, 0, 0.07);
+
+	@media screen and (max-width: 960px) {
+		background: #fff;
+		display: none;
+		left: 0;
+		padding-left: 2rem;
+	}
+
+	a {
+		padding: 1rem;
+		margin: 0;
+		background: unset;
+		color: #212121;
+    }
+    
+    .current {
+		color: #148aff;
+		background: rgba(0, 0, 0, 0.03);
+	}
+
+	.tabs {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.docs-sidebar.active {
+	display: block;
+}
