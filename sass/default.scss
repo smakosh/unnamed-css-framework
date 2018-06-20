@@ -2,12 +2,12 @@ a  {
   text-decoration: none;
 }
 
-select, input, textarea  {
+select, input, textarea, button  {
   -webkit-appearance: none;
-}
 
-button, input, select, textarea:focus  {
-  outline: none;
+  &:focus  {
+    outline: none;
+  }
 }
 
 button  {
