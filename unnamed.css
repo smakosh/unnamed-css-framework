@@ -96,7 +96,9 @@ button {
     }
 }
 
-.row {
+.container .row,
+.small-container .row,
+.full-container .row {
     margin-left: -.75rem;
     margin-right: -.75rem
 }
