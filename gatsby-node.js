@@ -9,14 +9,14 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 		const fileNode = getNode(node.parent)
 		const parsedFilePath = path.parse(fileNode.relativePath)
 		if (
-			Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
-			Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')
+			Object.prototype.hasOwnProperty.call(node, 'frontmatter')
+			&& Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')
 		) {
 			slug += `${_.kebabCase(node.frontmatter.slug)}`
 		}
 		if (
-			Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
-			Object.prototype.hasOwnProperty.call(node.frontmatter, 'title')
+			Object.prototype.hasOwnProperty.call(node, 'frontmatter')
+			&& Object.prototype.hasOwnProperty.call(node.frontmatter, 'title')
 		) {
 			slug += `${_.kebabCase(node.frontmatter.title)}`
 		} else if (parsedFilePath.name !== 'index' && parsedFilePath.dir !== '') {

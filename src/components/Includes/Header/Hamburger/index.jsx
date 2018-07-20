@@ -4,9 +4,9 @@ import './styles.scss'
 
 const Hamburger = ({ sidebar, Toggle }) => (
 	<div className={cx('hamburger', { active: sidebar })} onClick={Toggle}>
-		<div className="top"></div>
-		<div className="mid"></div>
-		<div className="bottom"></div>
+		<div className="top" />
+		<div className="mid" />
+		<div className="bottom" />
 	</div>
 )
 
