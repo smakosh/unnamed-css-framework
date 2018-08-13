@@ -32,7 +32,7 @@
     "react-syntax-highlighter": "^7.0.2",
     "react-twitter-widgets": "^1.7.1",
     "recompose": "^0.27.1",
-    "unnamed": "^1.2.5"
+    "unnamed": "^1.2.6"
   },
   "keywords": [
     "gatsby"
