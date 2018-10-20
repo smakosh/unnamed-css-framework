@@ -1,8 +1,8 @@
 import React from 'react'
-import { navigateTo } from 'gatsby-link'
+import { navigate } from 'gatsby'
 import { Timeline, Follow } from 'react-twitter-widgets'
-import './styles.scss'
 import unnamedLogo from '../../../../static/logo/logo.svg'
+import './styles.scss'
 
 const Intro = () => {
 	const introData = [
@@ -48,7 +48,7 @@ const Intro = () => {
 					width="90px"
 					height="20px"
 					title="stars"
-				 />
+				/>
 				<iframe
 					className="iframe forkit"
 					src="https://ghbtns.com/github-btn.html?user=smakosh&repo=unnamed-css-framework&type=fork&count=true"
@@ -57,10 +57,10 @@ const Intro = () => {
 					width="90px"
 					height="20px"
 					title="forks"
-				 />
+				/>
 			</div>
 			<div className="mb2">
-				<button className="btn btn-primary gradient-green" onClick={() => navigateTo('/docs/getting-started')}>
+				<button type="button" className="btn btn-primary gradient-green" onClick={() => navigate('/docs/getting-started')}>
                     Documentation
 				</button>
 			</div>

@@ -1,10 +1,13 @@
 import React from 'react'
+import { title } from '../../data/Config'
+import { Layout, SEO } from '../components/common'
 import Intro from '../components/Landing/Intro'
 
 const IndexPage = () => (
-	<div>
+	<Layout>
+		<SEO title={title} />
 		<Intro />
-	</div>
+	</Layout>
 )
 
 export default IndexPage

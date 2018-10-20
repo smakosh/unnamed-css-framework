@@ -1,59 +1,69 @@
-import React, { Component } from 'react'
+import React from 'react'
 import cx from 'classnames'
-import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
+import { compose, withStateHandlers, lifecycle } from 'recompose'
+import { Layout, SEO } from '../components/common'
 import { SidebarDocs, DocsContent, BurgerIcon } from '../components/Docs'
 
-export default class docTemplate extends Component {
-	constructor(props) {
-		super(props)
-		this.state = {
-			selected: this.props.pathContext.slug,
-			isToggled: false,
-		}
-	}
-
-  toggleSideBar = () => this.setState(state => ({ isToggled: !state.isToggled }))
-
-  selectedDoc = selected => this.setState({ selected, isToggled: false })
-
-  selectedDocBySlug = selected => this.setState({ selected })
-
-  render() {
-  	const { slug } = this.props.pathContext
-  	const postNode = this.props.data.postBySlug
+const DocTemplate = ({
+	selected, isToggled, toggleSideBar, selectedDoc, selectedDocBySlug, data, pageContext
+}) => {
+  	const { slug } = pageContext
+  	const postNode = data.postBySlug
   	const post = postNode.frontmatter
   	if (!post.id) {
   		post.id = slug
   	}
   	return (
-  		<React.Fragment>
-  			<Helmet>
-  				<title>{`${post.title} | Unnamed`}</title>
-  			</Helmet>
+  		<Layout>
+  			<SEO
+				title={`Unnamed | ${post.title}`}
+				location={post.slug}
+  			/>
   			<div
   				className={cx('black-overlay', {
-  					active: this.state.isToggled === true,
+  					active: isToggled === true,
   				})}
-  				onClick={this.toggleSideBar}
+  				onClick={toggleSideBar}
   			/>
   			<div className="container docs-content-container">
   				<SidebarDocs
-  					selected={this.state.selected}
-  					selectedDocBySlug={this.selectedDocBySlug}
-  					selectedDoc={this.selectedDoc}
-  					chapters={this.props.data.tableOfContents.chapters}
-  					isToggled={this.state.isToggled}
+  					selected={selected}
+  					selectedDocBySlug={selectedDocBySlug}
+  					selectedDoc={selectedDoc}
+  					chapters={data.tableOfContents.chapters}
+  					isToggled={isToggled}
   				/>
   				<BurgerIcon
-  					toggleSideBar={this.toggleSideBar}
-  					isToggled={this.state.isToggled}
+  					toggleSideBar={toggleSideBar}
+  					isToggled={isToggled}
   				/>
   				<DocsContent title={post.title} content={postNode.html} />
   			</div>
-  		</React.Fragment>
+  		</Layout>
   	)
-  }
 }
+
+const enhance = compose(
+	withStateHandlers(
+		() => ({
+			selected: '/docs/getting-started',
+			isToggled: false
+		}),
+		{
+			toggleSideBar: ({ isToggled }) => () => ({ isToggled: !isToggled }),
+			selectedDoc: () => selected => ({ selected, isToggled: false }),
+			selectedDocBySlug: () => selected => ({ selected })
+		}
+	),
+	lifecycle({
+		componentDidMount() {
+			this.props.selectedDocBySlug(this.props.pageContext.slug)
+		}
+	})
+)
+
+export default enhance(DocTemplate)
 
 export const pageQuery = graphql`
   query DocBySlug($slug: String!) {

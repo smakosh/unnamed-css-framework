@@ -1,9 +1,8 @@
 const path = require('path')
 const _ = require('lodash')
-const webpackLodashPlugin = require('lodash-webpack-plugin')
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-	const { createNodeField } = boundActionCreators
+exports.onCreateNode = ({ node, actions, getNode }) => {
+	const { createNodeField } = actions
 	let slug = '/docs/'
 	if (node.internal.type === 'MarkdownRemark') {
 		const fileNode = getNode(node.parent)
@@ -30,60 +29,43 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 	}
 }
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-	const { createPage } = boundActionCreators
+exports.createPages = ({ graphql, actions }) => {
+	const { createPage } = actions
 
 	return new Promise((resolve, reject) => {
-		const postPage = path.resolve('src/templates/post.jsx')
 		const docItemPage = path.resolve('src/templates/item.jsx')
-		resolve(
-			graphql(`
-				{
-					allMarkdownRemark {
-						edges {
-							node {
-								frontmatter {
-									title
-									type
-								}
-								fields {
-									slug
-								}
+
+		graphql(`
+			{
+				allMarkdownRemark {
+					edges {
+						node {
+							frontmatter {
+								title
+							}
+							fields {
+								slug
 							}
 						}
 					}
-				}`)
-				.then(result => {
-					if (result.errors) {
-						reject(result.errors)
-					}
+				}
+			}`)
+			.then(result => {
+				if (result.errors) {
+					return reject(result.errors)
+				}
 
-					result.data.allMarkdownRemark.edges.forEach(edge => {
-						if (edge.node.frontmatter.type === 'post') {
-							createPage({
-								path: edge.node.fields.slug,
-								component: postPage,
-								context: {
-									slug: edge.node.fields.slug,
-								},
-							})
-						} else {
-							createPage({
-								path: edge.node.fields.slug,
-								component: docItemPage,
-								context: {
-									slug: edge.node.fields.slug,
-								},
-							})
-						}
+				return result.data.allMarkdownRemark.edges.forEach(edge => {
+					createPage({
+						path: edge.node.fields.slug,
+						component: docItemPage,
+						context: {
+							slug: edge.node.fields.slug,
+						},
 					})
-				})
-		)
-	})
-}
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
-	if (stage === 'build-javascript') {
-		config.plugin('Lodash', webpackLodashPlugin, null)
-	}
+					resolve()
+				})
+			})
+	})
 }
