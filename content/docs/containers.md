@@ -17,7 +17,7 @@ title: 'Containers'
 ## container
 
 <div class="container mb2 bg-custom">
-    <h2>1200px</h2>
+    <h2>1280px</h2>
 </div>
 
 ```html

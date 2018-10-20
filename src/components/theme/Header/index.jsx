@@ -23,7 +23,7 @@ const Header = ({ isOpened, toggleSidebar }) => (
 
 const enhance = compose(
 	withStateHandlers(
-		({ initialState = false }) => ({ isOpened: initialState }),
+		() => ({ isOpened: false }),
 		{ toggleSidebar: ({ isOpened }) => () => ({ isOpened: !isOpened }) }
 	)
 )

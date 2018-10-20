@@ -1,14 +1,16 @@
 const config = require('./data/Config');
 
 module.exports = {
+	siteMetadata: {
+		title: config.title,
+	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-sass',
-		'gatsby-plugin-react-next',
 		{
 			resolve: 'gatsby-plugin-canonical-urls',
 			options: {
-				siteUrl: config.siteURL,
+				siteUrl: config.url,
 			},
 		},
 		'gatsby-plugin-catch-links',
@@ -38,8 +40,8 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				name: 'posts',
-				path: `${__dirname}/content/`,
+				name: 'docs',
+				path: `${__dirname}/content/docs/`,
 			},
 		},
 		{
@@ -64,7 +66,7 @@ module.exports = {
 				start_url: '/',
 				background_color: config.backgroundColor,
 				theme_color: config.themeColor,
-				display: 'minimal-ui',
+				display: 'fullscreen',
 				icons: [
 					{
 						src: '/favicon/logo-192x192.png',
