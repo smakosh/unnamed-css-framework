@@ -7,7 +7,7 @@ Unnamed is a simple colorful css framework that is recommended to be used while 
 [![Package Version](https://img.shields.io/npm/v/unnamed.svg?style=flat-square)](https://www.npmjs.com/package/unnamed)
 [![Package Downloads](https://img.shields.io/npm/dt/unnamed.svg?style=flat-square)](https://www.npmjs.com/package/unnamed)
 
-![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)
+[![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/smakosh)
 
 Npm
 
