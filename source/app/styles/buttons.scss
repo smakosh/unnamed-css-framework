@@ -1,6 +1,6 @@
 @import "colors";
 
-.btn  {
+.btn {
   padding: 1rem 1.5rem;
   color: #fff;
   cursor: pointer;
@@ -8,15 +8,15 @@
   font-weight: bold;
 }
 
-.btn-primary  {
+.btn-primary {
   border-radius: 5px;
 }
 
-.btn-rounded  {
-  border-radius: 30px;
+.btn-rounded {
+  border-radius: 60px;
 }
 
-.btn-outlined  {
+.btn-outlined {
   border-width: 3px;
   border-style: solid;
   transition: all 0.5s;
@@ -31,7 +31,7 @@
   background: $black !important;
 }
 
-.black-btn  {
+.black-btn {
   border-color: $black;
   color: $black;
 
@@ -40,7 +40,7 @@
   }
 }
 
-.green-btn  {
+.green-btn {
   border-color: $green;
   color: $green;
 
@@ -49,7 +49,7 @@
   }
 }
 
-.orange-btn  {
+.orange-btn {
   border-color: $orange-btn;
   color: $orange-btn;
 
@@ -58,7 +58,7 @@
   }
 }
 
-.purple-btn  {
+.purple-btn {
   border-color: $purple-btn;
   color: $purple-btn;
 
@@ -67,14 +67,22 @@
   }
 }
 
-button:disabled  {
+.btn-small {
+  padding: 0.5rem 1rem;
+}
+
+.btn-large {
+  padding: 1.5rem 2rem;
+}
+
+button:disabled {
   box-shadow: unset;
-  opacity: .8;
+  opacity: 0.8;
   background: $disabled;
   color: #fff;
   border: unset;
 
-  &:hover  {
+  &:hover {
     box-shadow: unset;
     background: $disabled;
   }
